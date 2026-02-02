@@ -7,7 +7,7 @@ export default function Navbar(){
             <Image alt="Logo" src={Logo} className="w-50"/>
             <div className="flex text-[#efdb92] gap-8">
                 <a>Home</a>
-                <a>Events</a>
+                <a href="./events">Events</a>
                 <a>Rules</a>
                 <a>Gallery</a>
                 <a>About</a>

@@ -1,0 +1,485 @@
+[
+  {
+    "id": "1",
+    "title": "Drishti",
+    "date": "2026-03-20",
+    "location": "Main Campus",
+    "category": "Management",
+    "tags": ["Management Fest", "Creative", "Reels", "Team Event"],
+    "overview": "Reels making competition. Registration: 200/- per team.",
+    "fullDescription": "Showcase your creativity in Drishti, the Reels Making competition.\n\n**Registration Fee:** 200/- per team (Maximum 2 Participants).\n**Prizes:** 1st Prize 5,000/-.",
+    "coordinator": {
+      "name": "Aditi Dev",
+      "phone": "+91 9778278711",
+      "email": "aditi.dev@jbevents.com"
+    },
+    "image": "/images/drishti.jpg",
+    "registrationLink": "https://example.com/register/drishti"
+  },
+  {
+    "id": "2",
+    "title": "Navodayam",
+    "date": "2026-03-20",
+    "location": "Seminar Hall A",
+    "category": "Management",
+    "tags": ["Management Fest", "Pitching", "Startup", "Team Event"],
+    "overview": "Idea pitching competition. Registration: 250/- per team.",
+    "fullDescription": "Pitch your best business ideas in Navodayam.\n\n**Registration Fee:** 250/- per team (Maximum 4 Participants).\n**Prizes:** 1st Prize 6,000/-.",
+    "coordinator": {
+      "name": "Advaith Sajith",
+      "phone": "+91 9496725235",
+      "email": "advaith.s@jbevents.com"
+    },
+    "image": "/images/navodayam.jpg",
+    "registrationLink": "https://example.com/register/navodayam"
+  },
+  {
+    "id": "3",
+    "title": "Kurukshetra",
+    "date": "2026-03-21",
+    "location": "Auditorium",
+    "category": "Management",
+    "tags": ["Management Fest", "Auction", "Strategy", "Team Event"],
+    "overview": "Strategic IPL Auction simulation. Registration: 500/- per team.",
+    "fullDescription": "Test your bidding strategies in Kurukshetra.\n\n**Registration Fee:** 500/- per team (Maximum 4 Participants).\n**Prizes:** 1st Prize 10,000/-; 2nd Prize 6,000/-.",
+    "coordinator": {
+      "name": "Event Coordinator",
+      "email": "management.fest@jbevents.com"
+    },
+    "image": "/images/kurukshetra.jpg",
+    "registrationLink": "https://example.com/register/kurukshetra"
+  },
+  {
+    "id": "4",
+    "title": "Chakravyuham",
+    "date": "2026-03-21",
+    "location": "Main Block",
+    "category": "Management",
+    "tags": ["Management Fest", "Leadership", "Strategy", "Team Event"],
+    "overview": "The ultimate test for management teams. Registration: 600/- per team.",
+    "fullDescription": "Prove your team is the best in Chakravyuham.\n\n**Registration Fee:** 600/- per team (Maximum 4 Participants).\n**Prizes:** 1st Prize 15,000/-; 2nd Prize 8,000/-.",
+    "coordinator": {
+      "name": "Event Coordinator",
+      "email": "management.fest@jbevents.com"
+    },
+    "image": "/images/chakravyuham.jpg",
+    "registrationLink": "https://example.com/register/chakravyuham"
+  },
+  {
+    "id": "5",
+    "title": "Vyapara Tantram",
+    "date": "2026-03-22",
+    "location": "Finance Lab",
+    "category": "Management",
+    "tags": ["Management Fest", "Trading", "Business", "Simulation"],
+    "overview": "Trading simulation competition. Registration: 600/- per team.",
+    "fullDescription": "Master the market in Vyapara Tantram.\n\n**Registration Fee:** 600/- per team (Maximum 4 Participants).\n**Prizes:** 1st Prize 10,000/-.",
+    "coordinator": {
+      "name": "Event Coordinator",
+      "email": "management.fest@jbevents.com"
+    },
+    "image": "/images/vyapara.jpg",
+    "registrationLink": "https://example.com/register/vyapara"
+  },
+  {
+    "id": "6",
+    "title": "Nirman",
+    "date": "2026-03-20",
+    "location": "Computer Lab 1",
+    "category": "Tech",
+    "tags": ["Tech Fest", "Hackathon", "Coding", "Team Event"],
+    "overview": "Major Hackathon event. Win up to 50,000/-.",
+    "fullDescription": "Build innovative solutions in the Nirman Hackathon.\n\n**Registration Fee:** 200/- per head.\n**Prizes:** Cash Prize 50,000/-.",
+    "coordinator": {
+      "name": "Muhammed Raiyan Najeem",
+      "phone": "+91 8089510567",
+      "email": "muhammed.r@jbevents.com"
+    },
+    "image": "/images/nirman.jpg",
+    "registrationLink": "https://example.com/register/nirman"
+  },
+  {
+    "id": "7",
+    "title": "Daksh",
+    "date": "2026-03-20",
+    "location": "Seminar Hall B",
+    "category": "Tech",
+    "tags": ["Tech Fest", "Workshop", "Learning"],
+    "overview": "Technical workshop series. Registration: 200/- per head.",
+    "fullDescription": "Expand your skills with the Daksh Workshop Series.\n\n**Registration Fee:** 200/- per head.\n**Prizes:** N/A.",
+    "coordinator": {
+      "name": "Muhammed Raiyan Najeem",
+      "phone": "+91 8089510567",
+      "email": "muhammed.r@jbevents.com"
+    },
+    "image": "/images/daksh.jpg",
+    "registrationLink": "https://example.com/register/daksh"
+  },
+  {
+    "id": "8",
+    "title": "Yodha",
+    "date": "2026-03-21",
+    "location": "Student Center",
+    "category": "Tech",
+    "tags": ["Tech Fest", "Gaming", "Esports", "Competition"],
+    "overview": "Competitive gaming tournament. Win 15,000/-.",
+    "fullDescription": "Battle it out in the Yodha eSports arena.\n\n**Registration Fee:** 150/- per head.\n**Prizes:** Cash Prize 15,000/-.",
+    "coordinator": {
+      "name": "Daewik Prasheen",
+      "phone": "+91 8891098650",
+      "email": "daewik.p@jbevents.com"
+    },
+    "image": "/images/yodha.jpg",
+    "registrationLink": "https://example.com/register/yodha"
+  },
+  {
+    "id": "9",
+    "title": "Ranam",
+    "date": "2026-03-21",
+    "location": "Computer Lab 2",
+    "category": "Tech",
+    "tags": ["Tech Fest", "Coding", "Competition"],
+    "overview": "Coding competition for top developers.",
+    "fullDescription": "Solve complex algorithms in Ranam.\n\n**Registration Fee:** 150/- per head.\n**Prizes:** 1st Prize 8,000/-; 2nd Prize 4,000/-.",
+    "coordinator": {
+      "name": "Daewik Prasheen",
+      "phone": "+91 8891098650",
+      "email": "daewik.p@jbevents.com"
+    },
+    "image": "/images/ranam.jpg",
+    "registrationLink": "https://example.com/register/ranam"
+  },
+  {
+    "id": "10",
+    "title": "MayaSabha",
+    "date": "2026-03-21",
+    "location": "VR Hub",
+    "category": "Tech",
+    "tags": ["Tech Fest", "VR", "Experience"],
+    "overview": "Experience the Virtual Reality Hub.",
+    "fullDescription": "Dive into a new dimension at MayaSabha.\n\n**Fee:** 50/- per use.\n**Prizes:** N/A.",
+    "coordinator": {
+      "name": "Tech Coordinator",
+      "email": "tech.fest@jbevents.com"
+    },
+    "image": "/images/mayasabha.jpg",
+    "registrationLink": "https://example.com/register/mayasabha"
+  },
+  {
+    "id": "11",
+    "title": "Eka-Lakshya",
+    "date": "2026-03-22",
+    "location": "Quadrangle",
+    "category": "Tech",
+    "tags": ["Tech Fest", "Robotics", "Competition"],
+    "overview": "Robotics line follower competition.",
+    "fullDescription": "Build the fastest line follower robot.\n\n**Registration Fee:** 200/- per team.\n**Prizes:** 1st Prize 10,000/-; 2nd Prize 5,000/-.",
+    "coordinator": {
+      "name": "Tech Coordinator",
+      "email": "tech.fest@jbevents.com"
+    },
+    "image": "/images/ekalakshya.jpg",
+    "registrationLink": "https://example.com/register/ekalakshya"
+  },
+  {
+    "id": "12",
+    "title": "Idea Dharshan",
+    "date": "2026-03-22",
+    "location": "Conference Hall",
+    "category": "Tech",
+    "tags": ["Tech Fest", "Poster", "Research"],
+    "overview": "Poster and Paper presentation event.",
+    "fullDescription": "Present your research and ideas.\n\n**Registration Fee:** 100/- per head.\n**Prizes:** Cash Prize 3,500/-.",
+    "coordinator": {
+      "name": "Tech Coordinator",
+      "email": "tech.fest@jbevents.com"
+    },
+    "image": "/images/ideadharshan.jpg",
+    "registrationLink": "https://example.com/register/ideadharshan"
+  },
+  {
+    "id": "13",
+    "title": "Pradarshini",
+    "date": "2026-03-22",
+    "location": "Exhibition Ground",
+    "category": "Tech",
+    "tags": ["Tech Fest", "Project", "Exhibition"],
+    "overview": "Bring and showcase your project. Win 23,000/-.",
+    "fullDescription": "Showcase your best technical projects.\n\n**Registration Fee:** 200/- per team.\n**Prizes:** Cash Prize 23,000/-.",
+    "coordinator": {
+      "name": "Tech Coordinator",
+      "email": "tech.fest@jbevents.com"
+    },
+    "image": "/images/pradarshini.jpg",
+    "registrationLink": "https://example.com/register/pradarshini"
+  },
+  {
+    "id": "14",
+    "title": "Web Aakriti",
+    "date": "2026-03-22",
+    "location": "Computer Lab 3",
+    "category": "Tech",
+    "tags": ["Tech Fest", "Web Development", "Competition"],
+    "overview": "Web development challenge.",
+    "fullDescription": "Design and build the best website.\n\n**Registration Fee:** 80/- per head.\n**Prizes:** Cash Prize 5,000/-.",
+    "coordinator": {
+      "name": "Tech Coordinator",
+      "email": "tech.fest@jbevents.com"
+    },
+    "image": "/images/webaakriti.jpg",
+    "registrationLink": "https://example.com/register/webaakriti"
+  },
+  {
+    "id": "15",
+    "title": "Gudha-Bhav",
+    "date": "2026-03-20",
+    "location": "Art Gallery",
+    "category": "Cultural",
+    "tags": ["Cultural Fest", "Photography", "Competition"],
+    "overview": "Photography Contest: The Mystery Emotion Hunt.",
+    "fullDescription": "Capture the mystery emotion in this photography contest.\n\n**Registration Fee:** 120/- per team (Max 4 Participants).\n**Prizes:** 1st Prize 3,000/-; 2nd Prize 1,500/-.",
+    "coordinator": {
+      "name": "Vividha Sadamast",
+      "phone": "+91 9967843080",
+      "email": "vividha.s@jbevents.com"
+    },
+    "image": "/images/gudhabhav.jpg",
+    "registrationLink": "https://example.com/register/gudhabhav"
+  },
+  {
+    "id": "16",
+    "title": "Trinetra",
+    "date": "2026-03-20",
+    "location": "Campus Grounds",
+    "category": "Cultural",
+    "tags": ["Cultural Fest", "Photography", "Competition"],
+    "overview": "Photography Contest: The Eye of God Challenge.",
+    "fullDescription": "Showcase your perspective in the Trinetra photography challenge.\n\n**Registration Fee:** 120/- per team (Max 4 Participants).\n**Prizes:** 1st Prize 3,000/-; 2nd Prize 1,500/-.",
+    "coordinator": {
+      "name": "Amrithavarshini",
+      "phone": "+91 6282261449",
+      "email": "amritha.v@jbevents.com"
+    },
+    "image": "/images/trinetra.jpg",
+    "registrationLink": "https://example.com/register/trinetra"
+  },
+  {
+    "id": "17",
+    "title": "Chitraangika",
+    "date": "2026-03-21",
+    "location": "Open Stage",
+    "category": "Cultural",
+    "tags": ["Cultural Fest", "Mime", "Performance", "Team Event"],
+    "overview": "Group Mime competition.",
+    "fullDescription": "Express stories without words in Chitraangika.\n\n**Registration Fee:** 300/- per team (Max 10 Participants).\n**Prizes:** 1st Prize 5,000/-; 2nd Prize 3,000/-.",
+    "coordinator": {
+      "name": "Ashwin Unnikrishnan",
+      "phone": "+91 9778578349",
+      "email": "ashwin.u@jbevents.com"
+    },
+    "image": "/images/chitraangika.jpg",
+    "registrationLink": "https://example.com/register/chitraangika"
+  },
+  {
+    "id": "18",
+    "title": "Taranga",
+    "date": "2026-03-22",
+    "location": "Main Auditorium",
+    "category": "Cultural",
+    "tags": ["Cultural Fest", "Fashion", "Performance"],
+    "overview": "The grand fashion showcase event.",
+    "fullDescription": "Walk the ramp in style at Taranga.\n\n**Registration Fee:** 1500/- per team.\n**Prizes:** 1st Prize 25,000/-; 2nd Prize 15,000/-.",
+    "coordinator": {
+      "name": "Ashwin Unnikrishnan",
+      "phone": "+91 9778578349",
+      "email": "ashwin.u@jbevents.com"
+    },
+    "image": "/images/taranga.jpg",
+    "registrationLink": "https://example.com/register/taranga"
+  },
+  {
+    "id": "19",
+    "title": "Dhruva '26",
+    "date": "2026-03-22",
+    "location": "Concert Ground",
+    "category": "Cultural",
+    "tags": ["Cultural Fest", "Music", "Band", "Competition"],
+    "overview": "Western/Eastern Band Competition.",
+    "fullDescription": "Battle of the bands in Dhruva '26.\n\n**Registration Fee:** 1000/- per team.\n**Prizes:** 1st Prize 20,000/-; 2nd Prize 10,000/-.",
+    "coordinator": {
+      "name": "Ashwin Unnikrishnan",
+      "phone": "+91 9778578349",
+      "email": "ashwin.u@jbevents.com"
+    },
+    "image": "/images/dhruva.jpg",
+    "registrationLink": "https://example.com/register/dhruva"
+  },
+  {
+    "id": "20",
+    "title": "Yugma",
+    "date": "2026-03-21",
+    "location": "Auditorium",
+    "category": "Cultural",
+    "tags": ["Cultural Fest", "Performance", "Duo"],
+    "overview": "Duo Performance competition.",
+    "fullDescription": "Showcase your duo chemistry in Yugma.\n\n**Registration Fee:** 600/- per team.\n**Prizes:** 1st Prize 15,000/-; 2nd Prize 5,000/-.",
+    "coordinator": {
+      "name": "Vividha Sadamast",
+      "phone": "+91 9967843080",
+      "email": "vividha.s@jbevents.com"
+    },
+    "image": "/images/yugma.jpg",
+    "registrationLink": "https://example.com/register/yugma"
+  },
+  {
+    "id": "21",
+    "title": "Swarabhinaya",
+    "date": "2026-03-21",
+    "location": "Mini Hall",
+    "category": "Cultural",
+    "tags": ["Cultural Fest", "Dubbing", "Competition"],
+    "overview": "Scene dubbing competition.",
+    "fullDescription": "Voice over your favorite scenes in Swarabhinaya.\n\n**Registration Fee:** 200/- per team (Max 2 Participants).\n**Prizes:** 1st Prize 3,000/-; 2nd Prize 2,000/-.",
+    "coordinator": {
+      "name": "Amrithavarshini",
+      "phone": "+91 6282261449",
+      "email": "amritha.v@jbevents.com"
+    },
+    "image": "/images/swarabhinaya.jpg",
+    "registrationLink": "https://example.com/register/swarabhinaya"
+  },
+  {
+    "id": "22",
+    "title": "Squid Game",
+    "date": "2026-03-21",
+    "location": "Grounds",
+    "category": "Psychology",
+    "tags": ["Psychology Fest", "Games", "Competition"],
+    "overview": "Survival game challenge based on the series.",
+    "fullDescription": "Participate in the thrilling Squid Game event.\n\n**Registration Fee:** 200/- per head.\n**Prizes:** 1st Prize 8,000/-; 2nd Prize 5,000/-.",
+    "coordinator": {
+      "name": "Adithyan VS",
+      "phone": "+91 6282312058",
+      "email": "adithyan.vs@jbevents.com"
+    },
+    "image": "/images/squidgame.jpg",
+    "registrationLink": "https://example.com/register/squidgame"
+  },
+  {
+    "id": "23",
+    "title": "Dyota",
+    "date": "2026-03-21",
+    "location": "Psychology Dept",
+    "category": "Psychology",
+    "tags": ["Psychology Fest", "Challenge"],
+    "overview": "Psychology themed event. Win 6,000/-.",
+    "fullDescription": "Engage in Dyota.\n\n**Registration Fee:** 200/- per head.\n**Prizes:** 1st Prize 6,000/-; 2nd Prize 3,000/-.",
+    "coordinator": {
+      "name": "Psych Coordinator",
+      "email": "psych.fest@jbevents.com"
+    },
+    "image": "/images/dyota.jpg",
+    "registrationLink": "https://example.com/register/dyota"
+  },
+  {
+    "id": "24",
+    "title": "Thanatos",
+    "date": "2026-03-21",
+    "location": "Psychology Dept",
+    "category": "Psychology",
+    "tags": ["Psychology Fest", "Challenge"],
+    "overview": "Challenge your mind in Thanatos.",
+    "fullDescription": "Participate in Thanatos.\n\n**Registration Fee:** 200/- per head.\n**Prizes:** 1st Prize 5,000/-; 2nd Prize 2,500/-.",
+    "coordinator": {
+      "name": "Psych Coordinator",
+      "email": "psych.fest@jbevents.com"
+    },
+    "image": "/images/thanatos.jpg",
+    "registrationLink": "https://example.com/register/thanatos"
+  },
+  {
+    "id": "25",
+    "title": "Jigisha - Inkquest",
+    "date": "2026-03-21",
+    "location": "Library Hall",
+    "category": "Literary",
+    "tags": ["Literary Fest", "Quest", "Books"],
+    "overview": "Literary quest with book hampers.",
+    "fullDescription": "Join the Inkquest.\n\n**Registration Fee:** 50/- per person.\n**Prizes:** Book hamper worth 3,000/-.",
+    "coordinator": {
+      "name": "Shreya Baiju",
+      "phone": "+91 8075625563",
+      "email": "shreya.b@jbevents.com"
+    },
+    "image": "/images/jigisha.jpg",
+    "registrationLink": "https://example.com/register/jigisha"
+  },
+  {
+    "id": "26",
+    "title": "Ganitha - Lakshya",
+    "date": "2026-03-21",
+    "location": "Math Dept",
+    "category": "Literary",
+    "tags": ["Literary Fest", "Mathematics", "Logic"],
+    "overview": "Mathematics and logic event.",
+    "fullDescription": "Test your logic in Ganitha.\n\n**Registration Fee:** 40/- per person.\n**Prizes:** 1st Prize 1,000/-.",
+    "coordinator": {
+      "name": "Shivangi Tiwari",
+      "phone": "+91 8102083452",
+      "email": "shivangi.t@jbevents.com"
+    },
+    "image": "/images/ganitha.jpg",
+    "registrationLink": "https://example.com/register/ganitha"
+  },
+  {
+    "id": "27",
+    "title": "Tejas",
+    "date": "2026-03-21",
+    "location": "Language Hall",
+    "category": "Literary",
+    "tags": ["Literary Fest", "Quiz", "Sanskrit"],
+    "overview": "Sanskrit knowledge quiz.",
+    "fullDescription": "Compete in the Sanskrit Quiz.\n\n**Registration Fee:** 20/- per person.\n**Prizes:** 1st Prize 1,500/-; 2nd Prize 1,000/-.",
+    "coordinator": {
+      "name": "Shivangi Tiwari",
+      "phone": "+91 8102083452",
+      "email": "shivangi.t@jbevents.com"
+    },
+    "image": "/images/tejas.jpg",
+    "registrationLink": "https://example.com/register/tejas"
+  },
+  {
+    "id": "28",
+    "title": "7s Football",
+    "date": "2026-03-22",
+    "location": "College Stadium",
+    "category": "General",
+    "tags": ["Sports", "Football", "Intercollege"],
+    "overview": "Intercollege Football tournament.",
+    "fullDescription": "The ultimate football showdown.\n\n**Registration Fee:** 1000/- per team.\n**Prizes:** 1st Prize 12,500/-; 2nd Prize 7,000/-.",
+    "coordinator": {
+      "name": "Shabaz Sha S.S",
+      "phone": "+91 9745317135",
+      "email": "shabaz.s@jbevents.com"
+    },
+    "image": "/images/football.jpg",
+    "registrationLink": "https://example.com/register/football"
+  },
+  {
+    "id": "29",
+    "title": "Lakshya '26",
+    "date": "2026-03-22",
+    "location": "Entire Campus",
+    "category": "General",
+    "tags": ["Treasure Hunt", "Adventure", "Team Event"],
+    "overview": "Campus-wide Treasure Hunt.",
+    "fullDescription": "Solve clues and find the treasure in Lakshya '26.\n\n**Registration Fee:** 500/- per team.\n**Prizes:** 1st Prize 15,000/-.",
+    "coordinator": {
+      "name": "Vighnesh & Team",
+      "phone": "+91 9061633956",
+      "email": "vighnesh.l@jbevents.com"
+    },
+    "image": "/images/treasurehunt.jpg",
+    "registrationLink": "https://example.com/register/treasurehunt"
+  }
+]

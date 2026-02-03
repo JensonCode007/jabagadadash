@@ -10,11 +10,18 @@ interface EventCardProps {
 export default function EventCard({ event }: EventCardProps) {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
+  const handleRegisterClick = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    if (event.registrationLink) {
+      window.open(event.registrationLink, '_blank');
+    }
+  };
+
   return (
     <>
       <div 
         onClick={() => setIsModalOpen(true)}
-        className="relative bg-[#151515] border border-[#2a2a2a] rounded-xl p-6 hover:border-[#efdb92] hover:shadow-[0_0_20px_rgba(239,219,146,0.15)] transition-all duration-300 aspect-square flex flex-col justify-end cursor-pointer overflow-hidden group"
+        className="relative bg-[#151515] border border-[#2a2a2a] rounded-xl p-6 hover:border-[#efdb92] hover:shadow-[0_0_20px_rgba(239,219,146,0.15)] hover:scale-105 transition-all duration-300 aspect-square flex flex-col justify-end cursor-pointer overflow-hidden group"
       >
         {/* Background logo image */}
         <div 
@@ -30,20 +37,33 @@ export default function EventCard({ event }: EventCardProps) {
         {/* Background gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a]/40 via-transparent to-[#0a0a0a]/95 z-[1]" />
         
-        <div className="relative z-[2] flex flex-col gap-3">
-          <h2 className="text-[#efdb92] text-2xl font-bold group-hover:text-[#f5e8b8] transition-colors duration-300">{event.title}</h2>
+        <div className="relative z-[2] flex gap-3">
+          {/* Event Details */}
+          <div className="flex flex-col gap-3 flex-1">
+            <h2 className="text-[#efdb92] text-2xl font-bold group-hover:text-[#f5e8b8] transition-colors duration-300">{event.title}</h2>
+            
+            <div className="flex flex-col gap-1.5 text-sm text-gray-400">
+              <span className="flex items-center gap-2">
+                <span className="text-[#efdb92]">📍</span> {event.location}
+              </span>
+              <span className="flex items-center gap-2">
+                <span className="text-[#efdb92]">📅</span> {new Date(event.date).toLocaleDateString('en-US', { 
+                  month: 'long', 
+                  day: 'numeric', 
+                  year: 'numeric' 
+                })}
+              </span>
+            </div>
+          </div>
           
-          <div className="flex flex-col gap-1.5 text-sm text-gray-400">
-            <span className="flex items-center gap-2">
-              <span className="text-[#efdb92]">📍</span> {event.location}
-            </span>
-            <span className="flex items-center gap-2">
-              <span className="text-[#efdb92]">📅</span> {new Date(event.date).toLocaleDateString('en-US', { 
-                month: 'long', 
-                day: 'numeric', 
-                year: 'numeric' 
-              })}
-            </span>
+          {/* Register Button */}
+          <div className="flex items-end">
+            <button
+              onClick={handleRegisterClick}
+              className="bg-[#efdb92] text-black px-4 py-1.5 rounded-lg text-sm font-semibold hover:bg-[#f5e8b8] hover:shadow-[0_0_15px_rgba(239,219,146,0.4)] transition-all duration-300"
+            >
+              Register
+            </button>
           </div>
         </div>
       </div>

@@ -9,7 +9,7 @@ interface TimeLeft {
 }
 
 export default function Countdown() {
-  const eventDate = new Date("2026-02-14T00:00:00").getTime();
+  const eventDate = new Date("2026-02-19T00:00:00").getTime();
 
   const calculateTimeLeft = (): TimeLeft => {
     const now = new Date().getTime();
@@ -38,40 +38,36 @@ export default function Countdown() {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center gap-2">
-      <h2 className="text-2xl md:text-2xl font-bold text-white/90">
-        Event Starts In
-      </h2>
-      
-      <div className="flex items-center">
+    <div className="flex flex-col items-center justify-center">
+      <div className="flex items-center mt-7">
         <div className="flex flex-col items-center rounded-2xl p-4 md:p-4 min-w-[80px] md:min-w-[100px]">
-          <span className="text-3xl md:text-2xl font-bold text-white">
+          <span className="text-3xl md:text-2xl font-bold text-[#efdb92]">
             {timeLeft.days}
           </span>
-          <span className="text-sm md:text-base text-white/70 mt-2">Days</span>
+          <span className="text-sm md:text-base text-gray-400 mt-2">Days</span>
         </div>
-        <div className="w-1 h-1 bg-white rounded-full"></div>
+        <div className="w-1 h-1 bg-[#efdb92] rounded-full"></div>
         <div className="flex flex-col items-center rounded-2xl p-4 md:p-4 min-w-[80px] md:min-w-[100px]">
-          <span className="text-3xl md:text-2xl font-bold text-white">
+          <span className="text-3xl md:text-2xl font-bold text-[#efdb92]">
             {timeLeft.hours.toString().padStart(2, "0")}
           </span>
-          <span className="text-sm md:text-base text-white/70 mt-2">Hours</span>
+          <span className="text-sm md:text-base text-gray-400 mt-2">Hours</span>
         </div>
-        <div className="w-1 h-1 bg-white rounded-full"></div>
+        <div className="w-1 h-1 bg-[#efdb92] rounded-full"></div>
 
         <div className="flex flex-col items-center rounded-2xl p-4 md:p-4 min-w-[80px] md:min-w-[100px]">
-          <span className="text-3xl md:text-2xl font-bold text-white">
+          <span className="text-3xl md:text-2xl font-bold text-[#efdb92]">
             {timeLeft.minutes.toString().padStart(2, "0")}
           </span>
-          <span className="text-sm md:text-base text-white/70 mt-2">Minutes</span>
+          <span className="text-sm md:text-base text-gray-400 mt-2">Minutes</span>
         </div>
-        <div className="w-1 h-1 bg-white rounded-full"></div>
+        <div className="w-1 h-1 bg-[#efdb92] rounded-full"></div>
 
         <div className="flex flex-col items-center rounded-2xl p-4 md:p-4 min-w-[80px] md:min-w-[100px]">
-          <span className="text-3xl md:text-2xl font-bold text-white">
+          <span className="text-3xl md:text-2xl font-bold text-[#efdb92]">
             {timeLeft.seconds.toString().padStart(2, "0")}
           </span>
-          <span className="text-sm md:text-base text-white/70 mt-2">Seconds</span>
+          <span className="text-sm md:text-base text-gray-400 mt-2">Seconds</span>
         </div>
       </div>
     </div>

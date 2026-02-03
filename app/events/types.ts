@@ -5,11 +5,17 @@ export interface Event {
   location: string;
   category: string;
   tags: string[];
-  overview: string;
-  fullDescription: string;
+  description: string;
+  guidelines: string;
+  registrationFee?: string;
+  cashPrize?: {
+    type: 'single' | 'prize-pool' | 'first-second';
+    amount?: string;
+    first?: string;
+    second?: string;
+  };
   coordinator?: {
     name: string;
-    email?: string;
     phone?: string;
   };
   image?: string;

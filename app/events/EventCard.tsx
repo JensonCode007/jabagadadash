@@ -1,7 +1,7 @@
 'use client';
 
 import { Event } from './types';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 interface EventCardProps {
   event: Event;
@@ -9,6 +9,17 @@ interface EventCardProps {
 
 export default function EventCard({ event }: EventCardProps) {
   const [isModalOpen, setIsModalOpen] = useState(false);
+
+  useEffect(() => {
+    if (isModalOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [isModalOpen]);
 
   const handleRegisterClick = (e: React.MouseEvent) => {
     e.stopPropagation();
@@ -76,7 +87,7 @@ export default function EventCard({ event }: EventCardProps) {
         >
           <div 
             onClick={(e) => e.stopPropagation()}
-            className="bg-[#0f0f0f] border border-[#2a2a2a] shadow-[0_0_60px_rgba(239,219,146,0.1)] rounded-xl max-w-3xl w-full max-h-[90vh] overflow-y-auto animate-slideUp"
+            className="bg-[#0f0f0f] border border-[#2a2a2a] shadow-[0_0_60px_rgba(239,219,146,0.1)] rounded-xl max-w-3xl w-full max-h-[90vh] overflow-hidden flex flex-col animate-slideUp"
           >
             {/* Header */}
             <div className="sticky top-0 bg-[#0f0f0f]/95 backdrop-blur-md border-b border-[#2a2a2a] p-6 flex justify-between items-start">
@@ -104,20 +115,64 @@ export default function EventCard({ event }: EventCardProps) {
             </div>
 
             {/* Content */}
-            <div className="p-6 space-y-6">
-              {/* Overview */}
+            <div className="p-6 space-y-6 overflow-y-auto">
+              {/* Description */}
               <div>
-                <h3 className="text-[#efdb92] text-xl font-semibold mb-3">Overview</h3>
+                <h3 className="text-[#efdb92] text-xl font-semibold mb-3">Description</h3>
                 <p className="text-gray-400 leading-relaxed">
-                  {event.overview}
+                  {event.description}
                 </p>
               </div>
 
-              {/* Full Description */}
+              {/* Registration Fee */}
+              {event.registrationFee && (
+                <div>
+                  <h3 className="text-[#efdb92] text-xl font-semibold mb-3">Registration Fee</h3>
+                  <div className="bg-[#151515] border border-[#2a2a2a] rounded-lg p-4">
+                    <p className="text-gray-300 text-lg font-semibold">{event.registrationFee}</p>
+                  </div>
+                </div>
+              )}
+
+              {/* Cash Prize */}
+              {event.cashPrize && (
+                <div>
+                  <h3 className="text-[#efdb92] text-xl font-semibold mb-3">Cash Prize</h3>
+                  <div className="bg-[#151515] border border-[#2a2a2a] rounded-lg p-4">
+                    {event.cashPrize.type === 'single' && (
+                      <p className="text-gray-300 text-lg font-semibold">
+                        {event.cashPrize.amount?.toLowerCase().includes('book') || event.cashPrize.amount?.toLowerCase().includes('hamper') 
+                          ? event.cashPrize.amount 
+                          : `₹ ${event.cashPrize.amount}`}
+                      </p>
+                    )}
+                    {event.cashPrize.type === 'prize-pool' && (
+                      <div>
+                        <p className="text-gray-500 text-sm mb-1">Prize Pool</p>
+                        <p className="text-gray-300 text-lg font-semibold">₹ {event.cashPrize.amount}</p>
+                      </div>
+                    )}
+                    {event.cashPrize.type === 'first-second' && (
+                      <div className="space-y-2">
+                        <div>
+                          <p className="text-gray-500 text-sm">1st Prize</p>
+                          <p className="text-gray-300 text-lg font-semibold">₹ {event.cashPrize.first}</p>
+                        </div>
+                        <div>
+                          <p className="text-gray-500 text-sm">2nd Prize</p>
+                          <p className="text-gray-300 text-lg font-semibold">₹ {event.cashPrize.second}</p>
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              )}
+
+              {/* Event Guidelines */}
               <div>
-                <h3 className="text-[#efdb92] text-xl font-semibold mb-3">Full Description</h3>
+                <h3 className="text-[#efdb92] text-xl font-semibold mb-3">Event Guidelines</h3>
                 <p className="text-gray-400 leading-relaxed whitespace-pre-line">
-                  {event.fullDescription}
+                  {event.guidelines}
                 </p>
               </div>
 
@@ -127,16 +182,11 @@ export default function EventCard({ event }: EventCardProps) {
                   <h3 className="text-[#efdb92] text-xl font-semibold mb-3">Event Coordinator</h3>
                   <div className="bg-[#151515] border border-[#2a2a2a] rounded-lg p-4">
                     <p className="text-gray-300 font-semibold mb-2">{event.coordinator.name}</p>
-                    <div className="space-y-1 text-sm text-gray-500">
-                      <p className="flex items-center gap-2">
-                        <span className="text-[#efdb92]">✉️</span> <a href={`mailto:${event.coordinator.email}`} className="hover:text-[#efdb92] transition-colors duration-200">{event.coordinator.email}</a>
+                    {event.coordinator.phone && (
+                      <p className="flex items-center gap-2 text-sm text-gray-500">
+                        <span className="text-[#efdb92]">📞</span> <a href={`tel:${event.coordinator.phone}`} className="hover:text-[#efdb92] transition-colors duration-200">{event.coordinator.phone}</a>
                       </p>
-                      {event.coordinator.phone && (
-                        <p className="flex items-center gap-2">
-                          <span className="text-[#efdb92]">📞</span> <a href={`tel:${event.coordinator.phone}`} className="hover:text-[#efdb92] transition-colors duration-200">{event.coordinator.phone}</a>
-                        </p>
-                      )}
-                    </div>
+                    )}
                   </div>
                 </div>
               )}

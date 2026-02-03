@@ -6,12 +6,13 @@
     "location": "Main Campus",
     "category": "Management",
     "tags": ["Management Fest", "Creative", "Reels", "Team Event"],
-    "overview": "Reels making competition. Registration: 200/- per team.",
-    "fullDescription": "Showcase your creativity in Drishti, the Reels Making competition.\n\n**Registration Fee:** 200/- per team (Maximum 2 Participants).\n**Prizes:** 1st Prize 5,000/-.",
+    "description": "A reels making competition where teams of up to 2 participants showcase their creativity through short video content.",
+    "guidelines": "• Maximum 2 participants per team\n• Create and submit a creative reel\n• Follow the theme and guidelines provided during registration",
+    "registrationFee": "200/- per team",
+    "cashPrize": { "type": "single", "amount": "5,000" },
     "coordinator": {
-      "name": "Aditi Dev",
-      "phone": "+91 9778278711",
-      "email": "aditi.dev@jbevents.com"
+      "name": "Shriya S, Revathy Anilkumar",
+      "phone": "8075417622, 8590341362"
     },
     "image": "/images/drishti.jpg",
     "registrationLink": "https://example.com/register/drishti"
@@ -23,12 +24,13 @@
     "location": "Seminar Hall A",
     "category": "Management",
     "tags": ["Management Fest", "Pitching", "Startup", "Team Event"],
-    "overview": "Idea pitching competition. Registration: 250/- per team.",
-    "fullDescription": "Pitch your best business ideas in Navodayam.\n\n**Registration Fee:** 250/- per team (Maximum 4 Participants).\n**Prizes:** 1st Prize 6,000/-.",
+    "description": "An idea pitching competition where teams of up to 4 participants present their innovative business ideas.",
+    "guidelines": "• Maximum 4 participants per team\n• Prepare a business pitch presentation\n• Focus on innovation, feasibility, and impact",
+    "registrationFee": "250/- per team",
+    "cashPrize": { "type": "single", "amount": "6,000" },
     "coordinator": {
-      "name": "Advaith Sajith",
-      "phone": "+91 9496725235",
-      "email": "advaith.s@jbevents.com"
+      "name": "N Krishnapriya, Vaishnavi S Nair",
+      "phone": "9496774628, 9496677908"
     },
     "image": "/images/navodayam.jpg",
     "registrationLink": "https://example.com/register/navodayam"
@@ -40,11 +42,13 @@
     "location": "Auditorium",
     "category": "Management",
     "tags": ["Management Fest", "Auction", "Strategy", "Team Event"],
-    "overview": "Strategic IPL Auction simulation. Registration: 500/- per team.",
-    "fullDescription": "Test your bidding strategies in Kurukshetra.\n\n**Registration Fee:** 500/- per team (Maximum 4 Participants).\n**Prizes:** 1st Prize 10,000/-; 2nd Prize 6,000/-.",
+    "description": "A strategic IPL Auction simulation where teams compete to build the best squad within budget constraints.",
+    "guidelines": "• Maximum 4 participants per team\n• Understand auction mechanics and player values\n• Strategic bidding required\n• Budget management is crucial",
+    "registrationFee": "500/- per team",
+    "cashPrize": { "type": "first-second", "first": "10,000", "second": "6,000" },
     "coordinator": {
-      "name": "Event Coordinator",
-      "email": "management.fest@jbevents.com"
+      "name": "Adithya Dev, Rohith S",
+      "phone": "8848473585, 8547226670"
     },
     "image": "/images/kurukshetra.jpg",
     "registrationLink": "https://example.com/register/kurukshetra"
@@ -56,11 +60,13 @@
     "location": "Main Block",
     "category": "Management",
     "tags": ["Management Fest", "Leadership", "Strategy", "Team Event"],
-    "overview": "The ultimate test for management teams. Registration: 600/- per team.",
-    "fullDescription": "Prove your team is the best in Chakravyuham.\n\n**Registration Fee:** 600/- per team (Maximum 4 Participants).\n**Prizes:** 1st Prize 15,000/-; 2nd Prize 8,000/-.",
+    "description": "The ultimate test for management teams, combining leadership, strategy, and teamwork challenges.",
+    "guidelines": "• Maximum 4 participants per team\n• Multiple rounds testing management skills\n• Leadership and strategy assessment\n• Team coordination is essential",
+    "registrationFee": "600/- per team",
+    "cashPrize": { "type": "first-second", "first": "15,000", "second": "8,000" },
     "coordinator": {
-      "name": "Event Coordinator",
-      "email": "management.fest@jbevents.com"
+      "name": "Haritha Jayaprakash, Navin Ajay",
+      "phone": "9745197549, 7306710772"
     },
     "image": "/images/chakravyuham.jpg",
     "registrationLink": "https://example.com/register/chakravyuham"
@@ -72,15 +78,18 @@
     "location": "Finance Lab",
     "category": "Management",
     "tags": ["Management Fest", "Trading", "Business", "Simulation"],
-    "overview": "Trading simulation competition. Registration: 600/- per team.",
-    "fullDescription": "Master the market in Vyapara Tantram.\n\n**Registration Fee:** 600/- per team (Maximum 4 Participants).\n**Prizes:** 1st Prize 10,000/-.",
+    "description": "A trading simulation competition where teams experience real-world market dynamics.",
+    "guidelines": "• Maximum 4 participants per team\n• Trading simulation platform provided\n• Market analysis and strategy required\n• Risk management essential",
+    "registrationFee": "600/- per team",
+    "cashPrize": { "type": "single", "amount": "10,000" },
     "coordinator": {
-      "name": "Event Coordinator",
-      "email": "management.fest@jbevents.com"
+      "name": "Nayana Rupesh, Ann Mariya Roy",
+      "phone": "6282511970, 8590682078"
     },
     "image": "/images/vyapara.jpg",
     "registrationLink": "https://example.com/register/vyapara"
   },
+
   {
     "id": "6",
     "title": "Nirman",
@@ -88,16 +97,18 @@
     "location": "Computer Lab 1",
     "category": "Tech",
     "tags": ["Tech Fest", "Hackathon", "Coding", "Team Event"],
-    "overview": "Major Hackathon event. Win up to 50,000/-.",
-    "fullDescription": "Build innovative solutions in the Nirman Hackathon.\n\n**Registration Fee:** 200/- per head.\n**Prizes:** Cash Prize 50,000/-.",
+    "description": "A major hackathon event where participants build innovative solutions.",
+    "guidelines": "• Form teams and build innovative projects\n• 24-hour hackathon format\n• Theme will be announced at the start\n• Judging based on innovation, execution, and impact",
+    "registrationFee": "200/- per head",
+    "cashPrize": { "type": "prize-pool", "amount": "50,000" },
     "coordinator": {
-      "name": "Muhammed Raiyan Najeem",
-      "phone": "+91 8089510567",
-      "email": "muhammed.r@jbevents.com"
+      "name": "Niveditha S Nair, Murukesh S Kumar",
+      "phone": "7306894713, 8589836303"
     },
     "image": "/images/nirman.jpg",
     "registrationLink": "https://example.com/register/nirman"
   },
+
   {
     "id": "7",
     "title": "Daksh",
@@ -105,16 +116,17 @@
     "location": "Seminar Hall B",
     "category": "Tech",
     "tags": ["Tech Fest", "Workshop", "Learning"],
-    "overview": "Technical workshop series. Registration: 200/- per head.",
-    "fullDescription": "Expand your skills with the Daksh Workshop Series.\n\n**Registration Fee:** 200/- per head.\n**Prizes:** N/A.",
+    "description": "Technical workshop series for skill development and learning.",
+    "guidelines": "• Multiple workshop sessions\n• Hands-on learning experience\n• Bring your laptop\n• Certificates provided",
+    "registrationFee": "200/- per head",
     "coordinator": {
-      "name": "Muhammed Raiyan Najeem",
-      "phone": "+91 8089510567",
-      "email": "muhammed.r@jbevents.com"
+      "name": "Aswathy Pradeep, Dhyan Nand",
+      "phone": "8848185551, 7594073246"
     },
     "image": "/images/daksh.jpg",
     "registrationLink": "https://example.com/register/daksh"
   },
+
   {
     "id": "8",
     "title": "Yodha",
@@ -122,16 +134,18 @@
     "location": "Student Center",
     "category": "Tech",
     "tags": ["Tech Fest", "Gaming", "Esports", "Competition"],
-    "overview": "Competitive gaming tournament. Win 15,000/-.",
-    "fullDescription": "Battle it out in the Yodha eSports arena.\n\n**Registration Fee:** 150/- per head.\n**Prizes:** Cash Prize 15,000/-.",
+    "description": "A competitive gaming tournament where players battle in the eSports arena.",
+    "guidelines": "• Multiple game titles available\n• Tournament format\n• Bring your own controller if needed\n• Fair play rules strictly enforced",
+    "registrationFee": "150/- per head",
+    "cashPrize": { "type": "prize-pool", "amount": "15,000" },
     "coordinator": {
-      "name": "Daewik Prasheen",
-      "phone": "+91 8891098650",
-      "email": "daewik.p@jbevents.com"
+      "name": "Anujith A S, Arjun M",
+      "phone": "7356358630, 9961005302"
     },
     "image": "/images/yodha.jpg",
     "registrationLink": "https://example.com/register/yodha"
   },
+
   {
     "id": "9",
     "title": "Ranam",
@@ -139,12 +153,13 @@
     "location": "Computer Lab 2",
     "category": "Tech",
     "tags": ["Tech Fest", "Coding", "Competition"],
-    "overview": "Coding competition for top developers.",
-    "fullDescription": "Solve complex algorithms in Ranam.\n\n**Registration Fee:** 150/- per head.\n**Prizes:** 1st Prize 8,000/-; 2nd Prize 4,000/-.",
+    "description": "A coding competition for top developers to solve complex algorithms.",
+    "guidelines": "• Individual competition\n• Solve algorithmic problems\n• Timed rounds\n• Any programming language allowed",
+    "registrationFee": "150/- per head",
+    "cashPrize": { "type": "first-second", "first": "8,000", "second": "4,000" },
     "coordinator": {
-      "name": "Daewik Prasheen",
-      "phone": "+91 8891098650",
-      "email": "daewik.p@jbevents.com"
+      "name": "Titus M Sunil, Niranjana Uday",
+      "phone": "7012446604, 9072526232"
     },
     "image": "/images/ranam.jpg",
     "registrationLink": "https://example.com/register/ranam"
@@ -156,11 +171,12 @@
     "location": "VR Hub",
     "category": "Tech",
     "tags": ["Tech Fest", "VR", "Experience"],
-    "overview": "Experience the Virtual Reality Hub.",
-    "fullDescription": "Dive into a new dimension at MayaSabha.\n\n**Fee:** 50/- per use.\n**Prizes:** N/A.",
+    "description": "Experience cutting-edge Virtual Reality technology at the VR Hub.",
+    "guidelines": "• VR headsets provided\n• Multiple VR experiences available\n• Time slot booking required\n• Safety guidelines must be followed",
+    "registrationFee": "50/- per use",
     "coordinator": {
-      "name": "Tech Coordinator",
-      "email": "tech.fest@jbevents.com"
+      "name": "Shamna Khaludeen Kunju, Advaith Santhosh",
+      "phone": "9995449128, 9495858085"
     },
     "image": "/images/mayasabha.jpg",
     "registrationLink": "https://example.com/register/mayasabha"
@@ -172,11 +188,13 @@
     "location": "Quadrangle",
     "category": "Tech",
     "tags": ["Tech Fest", "Robotics", "Competition"],
-    "overview": "Robotics line follower competition.",
-    "fullDescription": "Build the fastest line follower robot.\n\n**Registration Fee:** 200/- per team.\n**Prizes:** 1st Prize 10,000/-; 2nd Prize 5,000/-.",
+    "description": "A robotics line follower competition where teams build and race autonomous robots.",
+    "guidelines": "• Build a line-following robot\n• Robot specifications provided\n• Fastest and most accurate robot wins\n• Technical inspection required",
+    "registrationFee": "200/- per team",
+    "cashPrize": { "type": "first-second", "first": "10,000", "second": "5,000" },
     "coordinator": {
-      "name": "Tech Coordinator",
-      "email": "tech.fest@jbevents.com"
+      "name": "Abhijith Arun, Sachin R",
+      "phone": "9746942620, 9400087920"
     },
     "image": "/images/ekalakshya.jpg",
     "registrationLink": "https://example.com/register/ekalakshya"
@@ -188,11 +206,13 @@
     "location": "Conference Hall",
     "category": "Tech",
     "tags": ["Tech Fest", "Poster", "Research"],
-    "overview": "Poster and Paper presentation event.",
-    "fullDescription": "Present your research and ideas.\n\n**Registration Fee:** 100/- per head.\n**Prizes:** Cash Prize 3,500/-.",
+    "description": "A poster and paper presentation event where participants showcase their research and innovative ideas.",
+    "guidelines": "• Prepare poster and paper presentation\n• Focus on technical innovation\n• Presentation time limit applies\n• Judging based on content, presentation, and Q&A",
+    "registrationFee": "100/- per head",
+    "cashPrize": { "type": "prize-pool", "amount": "3,500" },
     "coordinator": {
-      "name": "Tech Coordinator",
-      "email": "tech.fest@jbevents.com"
+      "name": "Navaneeth S, Karthik Chandran",
+      "phone": "8089475525, 8848889682"
     },
     "image": "/images/ideadharshan.jpg",
     "registrationLink": "https://example.com/register/ideadharshan"
@@ -204,11 +224,13 @@
     "location": "Exhibition Ground",
     "category": "Tech",
     "tags": ["Tech Fest", "Project", "Exhibition"],
-    "overview": "Bring and showcase your project. Win 23,000/-.",
-    "fullDescription": "Showcase your best technical projects.\n\n**Registration Fee:** 200/- per team.\n**Prizes:** Cash Prize 23,000/-.",
+    "description": "Bring and showcase your best technical projects in this major exhibition event.",
+    "guidelines": "• Bring your working project\n• Exhibition setup provided\n• Demonstration required\n• Innovation and functionality judged",
+    "registrationFee": "200/- per team",
+    "cashPrize": { "type": "prize-pool", "amount": "23,000" },
     "coordinator": {
-      "name": "Tech Coordinator",
-      "email": "tech.fest@jbevents.com"
+      "name": "Amrutha S Nair, Anjana Prakash",
+      "phone": "9061711663, 8547250037"
     },
     "image": "/images/pradarshini.jpg",
     "registrationLink": "https://example.com/register/pradarshini"
@@ -220,15 +242,18 @@
     "location": "Computer Lab 3",
     "category": "Tech",
     "tags": ["Tech Fest", "Web Development", "Competition"],
-    "overview": "Web development challenge.",
-    "fullDescription": "Design and build the best website.\n\n**Registration Fee:** 80/- per head.\n**Prizes:** Cash Prize 5,000/-.",
+    "description": "A web development challenge where participants design and build creative websites.",
+    "guidelines": "• Design and build a website\n• Theme provided on the day\n• Time-limited challenge\n• Judging on design, functionality, and creativity",
+    "registrationFee": "80/- per head",
+    "cashPrize": { "type": "prize-pool", "amount": "5,000" },
     "coordinator": {
-      "name": "Tech Coordinator",
-      "email": "tech.fest@jbevents.com"
+      "name": "Jenson T Rajan, Muhammed Syed",
+      "phone": "9061592245, 7593042465"
     },
     "image": "/images/webaakriti.jpg",
     "registrationLink": "https://example.com/register/webaakriti"
   },
+
   {
     "id": "15",
     "title": "Gudha-Bhav",
@@ -236,12 +261,13 @@
     "location": "Art Gallery",
     "category": "Cultural",
     "tags": ["Cultural Fest", "Photography", "Competition"],
-    "overview": "Photography Contest: The Mystery Emotion Hunt.",
-    "fullDescription": "Capture the mystery emotion in this photography contest.\n\n**Registration Fee:** 120/- per team (Max 4 Participants).\n**Prizes:** 1st Prize 3,000/-; 2nd Prize 1,500/-.",
+    "description": "A photography contest themed 'The Mystery Emotion Hunt' where teams capture intriguing emotions.",
+    "guidelines": "• Maximum 4 participants per team\n• Capture mystery emotions theme\n• Submit photos by deadline\n• Original work only",
+    "registrationFee": "120/- per team",
+    "cashPrize": { "type": "first-second", "first": "3,000", "second": "1,500" },
     "coordinator": {
       "name": "Vividha Sadamast",
-      "phone": "+91 9967843080",
-      "email": "vividha.s@jbevents.com"
+      "phone": "9967843080"
     },
     "image": "/images/gudhabhav.jpg",
     "registrationLink": "https://example.com/register/gudhabhav"
@@ -253,12 +279,13 @@
     "location": "Campus Grounds",
     "category": "Cultural",
     "tags": ["Cultural Fest", "Photography", "Competition"],
-    "overview": "Photography Contest: The Eye of God Challenge.",
-    "fullDescription": "Showcase your perspective in the Trinetra photography challenge.\n\n**Registration Fee:** 120/- per team (Max 4 Participants).\n**Prizes:** 1st Prize 3,000/-; 2nd Prize 1,500/-.",
+    "description": "A photography contest themed 'The Eye of God Challenge' where participants showcase unique perspectives.",
+    "guidelines": "• Maximum 4 participants per team\n• Eye of God theme\n• Submit photos by deadline\n• Creative perspectives encouraged",
+    "registrationFee": "120/- per team",
+    "cashPrize": { "type": "first-second", "first": "3,000", "second": "1,500" },
     "coordinator": {
       "name": "Amrithavarshini",
-      "phone": "+91 6282261449",
-      "email": "amritha.v@jbevents.com"
+      "phone": "6282261449"
     },
     "image": "/images/trinetra.jpg",
     "registrationLink": "https://example.com/register/trinetra"
@@ -270,12 +297,13 @@
     "location": "Open Stage",
     "category": "Cultural",
     "tags": ["Cultural Fest", "Mime", "Performance", "Team Event"],
-    "overview": "Group Mime competition.",
-    "fullDescription": "Express stories without words in Chitraangika.\n\n**Registration Fee:** 300/- per team (Max 10 Participants).\n**Prizes:** 1st Prize 5,000/-; 2nd Prize 3,000/-.",
+    "description": "A group mime competition where teams express stories without words through creative performances.",
+    "guidelines": "• Maximum 10 participants per team\n• Mime performance only (no speaking)\n• Time limit applies\n• Props and costumes allowed",
+    "registrationFee": "300/- per team",
+    "cashPrize": { "type": "first-second", "first": "5,000", "second": "3,000" },
     "coordinator": {
       "name": "Ashwin Unnikrishnan",
-      "phone": "+91 9778578349",
-      "email": "ashwin.u@jbevents.com"
+      "phone": "9778578349"
     },
     "image": "/images/chitraangika.jpg",
     "registrationLink": "https://example.com/register/chitraangika"
@@ -287,12 +315,13 @@
     "location": "Main Auditorium",
     "category": "Cultural",
     "tags": ["Cultural Fest", "Fashion", "Performance"],
-    "overview": "The grand fashion showcase event.",
-    "fullDescription": "Walk the ramp in style at Taranga.\n\n**Registration Fee:** 1500/- per team.\n**Prizes:** 1st Prize 25,000/-; 2nd Prize 15,000/-.",
+    "description": "The grand fashion showcase event where teams walk the ramp in style.",
+    "guidelines": "• Professional ramp walk\n• Theme-based outfits\n• Choreography required\n• Judging on presentation, creativity, and coordination",
+    "registrationFee": "1500/- per team",
+    "cashPrize": { "type": "first-second", "first": "25,000", "second": "15,000" },
     "coordinator": {
       "name": "Ashwin Unnikrishnan",
-      "phone": "+91 9778578349",
-      "email": "ashwin.u@jbevents.com"
+      "phone": "9778578349"
     },
     "image": "/images/taranga.jpg",
     "registrationLink": "https://example.com/register/taranga"
@@ -304,12 +333,13 @@
     "location": "Concert Ground",
     "category": "Cultural",
     "tags": ["Cultural Fest", "Music", "Band", "Competition"],
-    "overview": "Western/Eastern Band Competition.",
-    "fullDescription": "Battle of the bands in Dhruva '26.\n\n**Registration Fee:** 1000/- per team.\n**Prizes:** 1st Prize 20,000/-; 2nd Prize 10,000/-.",
+    "description": "The ultimate Western/Eastern Band Competition - Battle of the bands.",
+    "guidelines": "• Western or Eastern band format\n• Original or cover songs\n• Performance time limit\n• Sound equipment provided",
+    "registrationFee": "1000/- per team",
+    "cashPrize": { "type": "first-second", "first": "20,000", "second": "10,000" },
     "coordinator": {
       "name": "Ashwin Unnikrishnan",
-      "phone": "+91 9778578349",
-      "email": "ashwin.u@jbevents.com"
+      "phone": "9778578349"
     },
     "image": "/images/dhruva.jpg",
     "registrationLink": "https://example.com/register/dhruva"
@@ -321,16 +351,18 @@
     "location": "Auditorium",
     "category": "Cultural",
     "tags": ["Cultural Fest", "Performance", "Duo"],
-    "overview": "Duo Performance competition.",
-    "fullDescription": "Showcase your duo chemistry in Yugma.\n\n**Registration Fee:** 600/- per team.\n**Prizes:** 1st Prize 15,000/-; 2nd Prize 5,000/-.",
+    "description": "A duo performance competition where teams showcase their chemistry through creative performances.",
+    "guidelines": "• 2-person performance\n• Any performance art form\n• Time limit applies\n• Chemistry and coordination judged",
+    "registrationFee": "600/- per team",
+    "cashPrize": { "type": "first-second", "first": "15,000", "second": "5,000" },
     "coordinator": {
       "name": "Vividha Sadamast",
-      "phone": "+91 9967843080",
-      "email": "vividha.s@jbevents.com"
+      "phone": "9967843080"
     },
     "image": "/images/yugma.jpg",
     "registrationLink": "https://example.com/register/yugma"
   },
+
   {
     "id": "21",
     "title": "Swarabhinaya",
@@ -338,16 +370,18 @@
     "location": "Mini Hall",
     "category": "Cultural",
     "tags": ["Cultural Fest", "Dubbing", "Competition"],
-    "overview": "Scene dubbing competition.",
-    "fullDescription": "Voice over your favorite scenes in Swarabhinaya.\n\n**Registration Fee:** 200/- per team (Max 2 Participants).\n**Prizes:** 1st Prize 3,000/-; 2nd Prize 2,000/-.",
+    "description": "A scene dubbing competition where teams voice over their favorite scenes.",
+    "guidelines": "• Maximum 2 participants per team\n• Dub the provided scene\n• Voice modulation and timing important\n• Any language allowed",
+    "registrationFee": "200/- per team",
+    "cashPrize": { "type": "first-second", "first": "3,000", "second": "2,000" },
     "coordinator": {
       "name": "Amrithavarshini",
-      "phone": "+91 6282261449",
-      "email": "amritha.v@jbevents.com"
+      "phone": "6282261449"
     },
     "image": "/images/swarabhinaya.jpg",
     "registrationLink": "https://example.com/register/swarabhinaya"
   },
+
   {
     "id": "22",
     "title": "Squid Game",
@@ -355,12 +389,13 @@
     "location": "Grounds",
     "category": "Psychology",
     "tags": ["Psychology Fest", "Games", "Competition"],
-    "overview": "Survival game challenge based on the series.",
-    "fullDescription": "Participate in the thrilling Squid Game event.\n\n**Registration Fee:** 200/- per head.\n**Prizes:** 1st Prize 8,000/-; 2nd Prize 5,000/-.",
+    "description": "A survival game challenge based on the series where participants compete in thrilling challenges.",
+    "guidelines": "• Multiple game rounds\n• Elimination format\n• Physical and mental challenges\n• Safety measures in place",
+    "registrationFee": "200/- per head",
+    "cashPrize": { "type": "first-second", "first": "8,000", "second": "5,000" },
     "coordinator": {
       "name": "Adithyan VS",
-      "phone": "+91 6282312058",
-      "email": "adithyan.vs@jbevents.com"
+      "phone": "6282312058"
     },
     "image": "/images/squidgame.jpg",
     "registrationLink": "https://example.com/register/squidgame"
@@ -372,11 +407,13 @@
     "location": "Psychology Dept",
     "category": "Psychology",
     "tags": ["Psychology Fest", "Challenge"],
-    "overview": "Psychology themed event. Win 6,000/-.",
-    "fullDescription": "Engage in Dyota.\n\n**Registration Fee:** 200/- per head.\n**Prizes:** 1st Prize 6,000/-; 2nd Prize 3,000/-.",
+    "description": "A psychology themed event testing your mental agility and psychological knowledge.",
+    "guidelines": "• Psychology-based challenges\n• Multiple rounds\n• Individual competition\n• Mental agility tested",
+    "registrationFee": "200/- per head",
+    "cashPrize": { "type": "first-second", "first": "6,000", "second": "3,000" },
     "coordinator": {
-      "name": "Psych Coordinator",
-      "email": "psych.fest@jbevents.com"
+      "name": "Psych Fest Team",
+      "phone": ""
     },
     "image": "/images/dyota.jpg",
     "registrationLink": "https://example.com/register/dyota"
@@ -388,15 +425,18 @@
     "location": "Psychology Dept",
     "category": "Psychology",
     "tags": ["Psychology Fest", "Challenge"],
-    "overview": "Challenge your mind in Thanatos.",
-    "fullDescription": "Participate in Thanatos.\n\n**Registration Fee:** 200/- per head.\n**Prizes:** 1st Prize 5,000/-; 2nd Prize 2,500/-.",
+    "description": "Challenge your mind in this psychology-based competition.",
+    "guidelines": "• Mind-challenging tasks\n• Psychological tests\n• Individual participation\n• Mental endurance required",
+    "registrationFee": "200/- per head",
+    "cashPrize": { "type": "first-second", "first": "5,000", "second": "2,500" },
     "coordinator": {
-      "name": "Psych Coordinator",
-      "email": "psych.fest@jbevents.com"
+      "name": "Psych Fest Team",
+      "phone": ""
     },
     "image": "/images/thanatos.jpg",
     "registrationLink": "https://example.com/register/thanatos"
   },
+
   {
     "id": "25",
     "title": "Jigisha - Inkquest",
@@ -404,12 +444,13 @@
     "location": "Library Hall",
     "category": "Literary",
     "tags": ["Literary Fest", "Quest", "Books"],
-    "overview": "Literary quest with book hampers.",
-    "fullDescription": "Join the Inkquest.\n\n**Registration Fee:** 50/- per person.\n**Prizes:** Book hamper worth 3,000/-.",
+    "description": "A literary quest with book hampers as prizes.",
+    "guidelines": "• Literary-themed quest\n• Book knowledge required\n• Individual or team participation\n• Multiple clues and challenges",
+    "registrationFee": "50/- per person",
+    "cashPrize": { "type": "single", "amount": "Book hamper worth 3,000" },
     "coordinator": {
-      "name": "Shreya Baiju",
-      "phone": "+91 8075625563",
-      "email": "shreya.b@jbevents.com"
+      "name": "Niveditha M G",
+      "phone": "8590962198"
     },
     "image": "/images/jigisha.jpg",
     "registrationLink": "https://example.com/register/jigisha"
@@ -421,12 +462,13 @@
     "location": "Math Dept",
     "category": "Literary",
     "tags": ["Literary Fest", "Mathematics", "Logic"],
-    "overview": "Mathematics and logic event.",
-    "fullDescription": "Test your logic in Ganitha.\n\n**Registration Fee:** 40/- per person.\n**Prizes:** 1st Prize 1,000/-.",
+    "description": "A mathematics and logic event testing your problem-solving skills.",
+    "guidelines": "• Mathematical problems\n• Logic puzzles\n• Individual competition\n• Time-bound challenges",
+    "registrationFee": "40/- per person",
+    "cashPrize": { "type": "single", "amount": "1,000" },
     "coordinator": {
-      "name": "Shivangi Tiwari",
-      "phone": "+91 8102083452",
-      "email": "shivangi.t@jbevents.com"
+      "name": "Aarya Vineed",
+      "phone": "85903234339"
     },
     "image": "/images/ganitha.jpg",
     "registrationLink": "https://example.com/register/ganitha"
@@ -438,16 +480,18 @@
     "location": "Language Hall",
     "category": "Literary",
     "tags": ["Literary Fest", "Quiz", "Sanskrit"],
-    "overview": "Sanskrit knowledge quiz.",
-    "fullDescription": "Compete in the Sanskrit Quiz.\n\n**Registration Fee:** 20/- per person.\n**Prizes:** 1st Prize 1,500/-; 2nd Prize 1,000/-.",
+    "description": "A Sanskrit knowledge quiz testing your understanding of the ancient language.",
+    "guidelines": "• Sanskrit language quiz\n• Multiple rounds\n• Individual participation\n• Knowledge of Sanskrit literature and grammar",
+    "registrationFee": "20/- per person",
+    "cashPrize": { "type": "first-second", "first": "1,500", "second": "1,000" },
     "coordinator": {
-      "name": "Shivangi Tiwari",
-      "phone": "+91 8102083452",
-      "email": "shivangi.t@jbevents.com"
+      "name": "B Vaishnavi",
+      "phone": "8848473585"
     },
     "image": "/images/tejas.jpg",
     "registrationLink": "https://example.com/register/tejas"
   },
+
   {
     "id": "28",
     "title": "7s Football",
@@ -455,12 +499,13 @@
     "location": "College Stadium",
     "category": "General",
     "tags": ["Sports", "Football", "Intercollege"],
-    "overview": "Intercollege Football tournament.",
-    "fullDescription": "The ultimate football showdown.\n\n**Registration Fee:** 1000/- per team.\n**Prizes:** 1st Prize 12,500/-; 2nd Prize 7,000/-.",
+    "description": "An intercollege football tournament - the ultimate football showdown.",
+    "guidelines": "• 7-a-side format\n• Intercollege participation\n• Knockout tournament\n• Standard football rules apply",
+    "registrationFee": "1000/- per team",
+    "cashPrize": { "type": "first-second", "first": "12,500", "second": "7,000" },
     "coordinator": {
       "name": "Shabaz Sha S.S",
-      "phone": "+91 9745317135",
-      "email": "shabaz.s@jbevents.com"
+      "phone": "9745317135"
     },
     "image": "/images/football.jpg",
     "registrationLink": "https://example.com/register/football"
@@ -472,14 +517,16 @@
     "location": "Entire Campus",
     "category": "General",
     "tags": ["Treasure Hunt", "Adventure", "Team Event"],
-    "overview": "Campus-wide Treasure Hunt.",
-    "fullDescription": "Solve clues and find the treasure in Lakshya '26.\n\n**Registration Fee:** 500/- per team.\n**Prizes:** 1st Prize 15,000/-.",
+    "description": "A campus-wide treasure hunt where teams solve clues to find the treasure.",
+    "guidelines": "• Solve clues across campus\n• Team coordination essential\n• Time-bound challenge\n• First team to complete wins",
+    "registrationFee": "500/- per team",
+    "cashPrize": { "type": "single", "amount": "15,000" },
     "coordinator": {
-      "name": "Vighnesh & Team",
-      "phone": "+91 9061633956",
-      "email": "vighnesh.l@jbevents.com"
+      "name": "Vighnesh",
+      "phone": "9061633956"
     },
     "image": "/images/treasurehunt.jpg",
     "registrationLink": "https://example.com/register/treasurehunt"
   }
 ]
+

@@ -14,8 +14,9 @@ export default function Navbar(currentPage: {currentPage: Number} = {currentPage
                 <Link className={getActiveClass(1)} href="/">Home</Link>
                 <Link className={getActiveClass(2)} href="/events">Events</Link>
                 <Link className={getActiveClass(3)} href="/rules">Rules</Link>
-                <Link className={getActiveClass(4)} href="/gallery">Gallery</Link>
-                <Link className={getActiveClass(5)} href="/about">About</Link>
+                <Link className={getActiveClass(4)} href="/schedule">Schedule</Link>
+                <Link className={getActiveClass(5)} href="/gallery">Gallery</Link>
+                <Link className={getActiveClass(6)} href="/about">About</Link>
             </div>
         </div>
     )

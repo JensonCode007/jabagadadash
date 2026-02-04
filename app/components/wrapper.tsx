@@ -13,8 +13,9 @@ export default function Wrapper({ children }: WrapperProps){
         if (pathname === "/") return 1;
         if (pathname === "/events") return 2;
         if (pathname === "/rules") return 3;
-        if (pathname === "/gallery") return 4;
-        if (pathname === "/about") return 5;
+        if (pathname === "/schedule") return 4;
+        if (pathname === "/gallery") return 5;
+        if (pathname === "/about") return 6;
         return 1;
     };
 

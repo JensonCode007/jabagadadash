@@ -7,7 +7,7 @@ export default function AboutPage() {
     <Wrapper>
         <div className="min-h-screen bg-[#0a0a0a] px-8 py-16">
       <div className="max-w-5xl mx-auto">
-        <h1 className="text-center text-[#efdb92] text-6xl font-bold mb-20 tracking-tight">
+        <h1 className="text-center text-[#efdb92] text-5xl font-bold mb-20 tracking-tight">
           About
         </h1>
 
@@ -97,13 +97,13 @@ export default function AboutPage() {
           <div>
             <h3 className="text-[#efdb92] text-2xl font-semibold mb-12 text-center">Fest Heads</h3>
             
-            <div className="text-gray-300 max-w-6xl mx-auto ">
+            <div className="text-gray-300 max-w-6xl mx-auto">
               {/* Row 1: Management Fest and Tech Fest */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-12 mb-12">
                 {/* Management Fest */}
-                <div>
-                  <p className="text-[#efdb92] font-semibold text-xl mb-4 ml-15">Management Fest</p>
-                  <div className="flex gap-12 flex-wrap">
+                <div className="text-center">
+                  <p className="text-[#efdb92] font-semibold text-xl mb-6">Management Fest</p>
+                  <div className="flex justify-center gap-8 flex-wrap">
                     <div>
                       <p className="font-medium">Aditi Dev</p>
                       <a href="tel:+919778278711" className="text-gray-400 hover:text-[#efdb92] transition-colors text-sm">
@@ -120,9 +120,9 @@ export default function AboutPage() {
                 </div>
 
                 {/* Tech Fest */}
-                <div>
-                  <p className="text-[#efdb92] font-semibold text-xl mb-4 ml-35">Tech Fest</p>
-                  <div className="flex gap-12 flex-wrap">
+                <div className="text-center">
+                  <p className="text-[#efdb92] font-semibold text-xl mb-6">Tech Fest</p>
+                  <div className="flex justify-center gap-8 flex-wrap">
                     <div>
                       <p className="font-medium">Muhammed Raiyan Najeem</p>
                       <a href="tel:+918089510567" className="text-gray-400 hover:text-[#efdb92] transition-colors text-sm">
@@ -140,11 +140,11 @@ export default function AboutPage() {
               </div>
 
               {/* Row 2: Cultural Fest and Literary Fest */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-12 mb-12">
                 {/* Cultural Fest */}
-                <div>
-                  <p className="text-[#efdb92] font-semibold text-xl mb-4 ml-19">Cultural Fest</p>
-                  <div className="flex gap-12 flex-wrap">
+                <div className="text-center">
+                  <p className="text-[#efdb92] font-semibold text-xl mb-6">Cultural Fest</p>
+                  <div className="flex justify-center gap-8 flex-wrap">
                     <div>
                       <p className="font-medium">Vividha Sadamast</p>
                       <a href="tel:+919967843080" className="text-gray-400 hover:text-[#efdb92] transition-colors text-sm">
@@ -161,9 +161,9 @@ export default function AboutPage() {
                 </div>
 
                 {/* Literary Fest */}
-                <div >
-                  <p className="text-[#efdb92] font-semibold text-xl mb-4 ml-33">Literary Fest</p>
-                  <div className="flex gap-12 flex-wrap ml-12">
+                <div className="text-center">
+                  <p className="text-[#efdb92] font-semibold text-xl mb-6">Literary Fest</p>
+                  <div className="flex justify-center gap-8 flex-wrap">
                     <div>
                       <p className="font-medium">Shreya Baiju</p>
                       <a href="tel:+918075625563" className="text-gray-400 hover:text-[#efdb92] transition-colors text-sm">
@@ -181,9 +181,9 @@ export default function AboutPage() {
               </div>
 
               {/* General Events - Full Width */}
-              <div>
-                <p className="text-[#efdb92] font-semibold text-xl mb-4 ml-95">General Events</p>
-                <div className="grid grid-cols-4 gap-6">
+              <div className="text-center">
+                <p className="text-[#efdb92] font-semibold text-xl mb-6">General Events</p>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center">
                   <div>
                     <p className="font-medium">Shabaz Sha S.S <span className="text-gray-500 text-sm">(Football)</span></p>
                     <a href="tel:+919745317135" className="text-gray-400 hover:text-[#efdb92] transition-colors text-sm">

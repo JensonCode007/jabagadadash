@@ -1,5 +1,7 @@
 import Wrapper from "../components/wrapper";
 
+import CampusMap from "../components/mapView";
+
 export default function AboutPage() {
   return (
     <Wrapper>
@@ -36,7 +38,7 @@ export default function AboutPage() {
           
           {/* Placeholder for Map */}
           <div className="border border-[rgba(239,219,146,0.3)] rounded-lg p-16 flex items-center justify-center">
-            <p className="text-gray-600 text-lg">Map View Integration Placeholder</p>
+            <CampusMap></CampusMap>
           </div>
         </section>
 
@@ -95,87 +97,93 @@ export default function AboutPage() {
           <div>
             <h3 className="text-[#efdb92] text-2xl font-semibold mb-12 text-center">Fest Heads</h3>
             
-            <div className="space-y-12 text-gray-300 max-w-4xl mx-auto">
-              {/* Management Fest */}
-              <div className="border-l-2 border-[#efdb92] pl-6">
-                <p className="text-[#efdb92] font-semibold text-xl mb-4">Management Fest</p>
-                <div className="flex gap-12 flex-wrap">
-                  <div>
-                    <p className="font-medium">Aditi Dev</p>
-                    <a href="tel:+919778278711" className="text-gray-400 hover:text-[#efdb92] transition-colors text-sm">
-                      +91 9778278711
-                    </a>
+            <div className="text-gray-300 max-w-6xl mx-auto ">
+              {/* Row 1: Management Fest and Tech Fest */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                {/* Management Fest */}
+                <div>
+                  <p className="text-[#efdb92] font-semibold text-xl mb-4 ml-15">Management Fest</p>
+                  <div className="flex gap-12 flex-wrap">
+                    <div>
+                      <p className="font-medium">Aditi Dev</p>
+                      <a href="tel:+919778278711" className="text-gray-400 hover:text-[#efdb92] transition-colors text-sm">
+                        +91 9778278711
+                      </a>
+                    </div>
+                    <div>
+                      <p className="font-medium">Advaith Sajith</p>
+                      <a href="tel:+919496725235" className="text-gray-400 hover:text-[#efdb92] transition-colors text-sm">
+                        +91 9496725235
+                      </a>
+                    </div>
                   </div>
-                  <div>
-                    <p className="font-medium">Advaith Sajith</p>
-                    <a href="tel:+919496725235" className="text-gray-400 hover:text-[#efdb92] transition-colors text-sm">
-                      +91 9496725235
-                    </a>
+                </div>
+
+                {/* Tech Fest */}
+                <div>
+                  <p className="text-[#efdb92] font-semibold text-xl mb-4 ml-35">Tech Fest</p>
+                  <div className="flex gap-12 flex-wrap">
+                    <div>
+                      <p className="font-medium">Muhammed Raiyan Najeem</p>
+                      <a href="tel:+918089510567" className="text-gray-400 hover:text-[#efdb92] transition-colors text-sm">
+                        +91 8089510567
+                      </a>
+                    </div>
+                    <div>
+                      <p className="font-medium">Daewik Prasheen</p>
+                      <a href="tel:+918891098650" className="text-gray-400 hover:text-[#efdb92] transition-colors text-sm">
+                        +91 8891098650
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
 
-              {/* Tech Fest */}
-              <div className="border-l-2 border-[#efdb92] pl-6">
-                <p className="text-[#efdb92] font-semibold text-xl mb-4">Tech Fest</p>
-                <div className="flex gap-12 flex-wrap">
-                  <div>
-                    <p className="font-medium">Muhammed Raiyan Najeem</p>
-                    <a href="tel:+918089510567" className="text-gray-400 hover:text-[#efdb92] transition-colors text-sm">
-                      +91 8089510567
-                    </a>
+              {/* Row 2: Cultural Fest and Literary Fest */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                {/* Cultural Fest */}
+                <div>
+                  <p className="text-[#efdb92] font-semibold text-xl mb-4 ml-19">Cultural Fest</p>
+                  <div className="flex gap-12 flex-wrap">
+                    <div>
+                      <p className="font-medium">Vividha Sadamast</p>
+                      <a href="tel:+919967843080" className="text-gray-400 hover:text-[#efdb92] transition-colors text-sm">
+                        +91 9967843080
+                      </a>
+                    </div>
+                    <div>
+                      <p className="font-medium">Amrithavarshini</p>
+                      <a href="tel:+916282261449" className="text-gray-400 hover:text-[#efdb92] transition-colors text-sm">
+                        +91 6282261449
+                      </a>
+                    </div>
                   </div>
-                  <div>
-                    <p className="font-medium">Daewik Prasheen</p>
-                    <a href="tel:+918891098650" className="text-gray-400 hover:text-[#efdb92] transition-colors text-sm">
-                      +91 8891098650
-                    </a>
+                </div>
+
+                {/* Literary Fest */}
+                <div >
+                  <p className="text-[#efdb92] font-semibold text-xl mb-4 ml-33">Literary Fest</p>
+                  <div className="flex gap-12 flex-wrap ml-12">
+                    <div>
+                      <p className="font-medium">Shreya Baiju</p>
+                      <a href="tel:+918075625563" className="text-gray-400 hover:text-[#efdb92] transition-colors text-sm">
+                        +91 8075625563
+                      </a>
+                    </div>
+                    <div>
+                      <p className="font-medium">Shivangi Tiwari</p>
+                      <a href="tel:+918102083452" className="text-gray-400 hover:text-[#efdb92] transition-colors text-sm">
+                        +91 8102083452
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
 
-              {/* Cultural Fest */}
-              <div className="border-l-2 border-[#efdb92] pl-6">
-                <p className="text-[#efdb92] font-semibold text-xl mb-4">Cultural Fest</p>
-                <div className="flex gap-12 flex-wrap">
-                  <div>
-                    <p className="font-medium">Vividha Sadamast</p>
-                    <a href="tel:+919967843080" className="text-gray-400 hover:text-[#efdb92] transition-colors text-sm">
-                      +91 9967843080
-                    </a>
-                  </div>
-                  <div>
-                    <p className="font-medium">Amrithavarshini</p>
-                    <a href="tel:+916282261449" className="text-gray-400 hover:text-[#efdb92] transition-colors text-sm">
-                      +91 6282261449
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              {/* Literary Fest */}
-              <div className="border-l-2 border-[#efdb92] pl-6">
-                <p className="text-[#efdb92] font-semibold text-xl mb-4">Literary Fest</p>
-                <div className="flex gap-12 flex-wrap">
-                  <div>
-                    <p className="font-medium">Shreya Baiju</p>
-                    <a href="tel:+918075625563" className="text-gray-400 hover:text-[#efdb92] transition-colors text-sm">
-                      +91 8075625563
-                    </a>
-                  </div>
-                  <div>
-                    <p className="font-medium">Shivangi Tiwari</p>
-                    <a href="tel:+918102083452" className="text-gray-400 hover:text-[#efdb92] transition-colors text-sm">
-                      +91 8102083452
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              {/* General Events */}
-              <div className="border-l-2 border-[#efdb92] pl-6">
-                <p className="text-[#efdb92] font-semibold text-xl mb-4">General Events</p>
-                <div className="grid grid-cols-2 gap-6">
+              {/* General Events - Full Width */}
+              <div>
+                <p className="text-[#efdb92] font-semibold text-xl mb-4 ml-95">General Events</p>
+                <div className="grid grid-cols-4 gap-6">
                   <div>
                     <p className="font-medium">Shabaz Sha S.S <span className="text-gray-500 text-sm">(Football)</span></p>
                     <a href="tel:+919745317135" className="text-gray-400 hover:text-[#efdb92] transition-colors text-sm">

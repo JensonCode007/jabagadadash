@@ -2,6 +2,7 @@
 
 import { Event } from './types';
 import { useState, useEffect } from 'react';
+import { InteractiveHoverButton } from "@/components/ui/interactive-hover-button"
 
 interface EventCardProps {
   event: Event;
@@ -68,13 +69,8 @@ export default function EventCard({ event }: EventCardProps) {
           </div>
           
           {/* Register Button */}
-          <div className="flex items-end">
-            <button
-              onClick={handleRegisterClick}
-              className="bg-[#efdb92] text-black px-3 sm:px-4 py-1.5 rounded-lg text-xs sm:text-sm font-semibold hover:bg-[#f5e8b8] hover:shadow-[0_0_15px_rgba(239,219,146,0.4)] transition-all duration-300 w-full sm:w-auto"
-            >
-              Register
-            </button>
+          <div className="flex items-end" onClick={(e) => e.stopPropagation()}>
+            <InteractiveHoverButton onClick={handleRegisterClick}>Register</InteractiveHoverButton>
           </div>
         </div>
       </div>
@@ -209,7 +205,7 @@ export default function EventCard({ event }: EventCardProps) {
                   href={event.registrationLink || '#'}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block w-full text-center bg-[#efdb92] text-black px-4 sm:px-6 py-3 sm:py-4 rounded-lg text-sm sm:text-base font-semibold hover:bg-[#f5e8b8] hover:shadow-[0_0_20px_rgba(239,219,146,0.3)] transition-all duration-300"
+                  className="inline-block w-full text-center bg-[#efdb92] text-black px-4 sm:px-6 py-3 sm:py-4 rounded-lg text-sm sm:text-base font-semibold hover:bg-black hover:text-white hover:shadow-[0_0_20px_rgba(239,219,146,0.3)] transition-all duration-300"
                 >
                   Register for Event →
                 </a>

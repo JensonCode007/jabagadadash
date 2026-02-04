@@ -109,7 +109,7 @@ export default function Rules(){
 
                     {/* Final Authority */}
                     <section className="animate-slide-up" style={{ animationDelay: '0.8s' }}>
-                        <h2 className="text-[#efdb92] text-3xl font-bold mb-6 pb-5 border-b border-[rgba(239,219,146,0.2)], text-center">
+                        <h2 className="text-[#efdb92] text-3xl font-bold mb-6 pb-5 border-b border-[rgba(239,219,146,0.2)], text-center font-jetbrains-mono">
                             Final Authority
                         </h2>
                         <div className="space-y-4 leading-relaxed text-lg">
@@ -123,7 +123,7 @@ export default function Rules(){
                 {/* Footer Note */}
                 <div className="mt-20 p-8 bg-[rgba(239,219,146,0.05)] border border-[rgba(239,219,146,0.3)] rounded-lg animate-fade-in">
                     <p className="text-gray-300 text-center text-lg leading-relaxed">
-                        <span className="text-[#efdb92] font-bold text-xl, text-center ">Important Notice:</span><br/>
+                        <span className="text-[#efdb92] font-bold text-xl, text-center font-jetbrains-mono">Important Notice:</span><br/>
                         All participants must read and agree to these rules before registration. Non-compliance may result in disqualification without refund.
                     </p>
                 </div>

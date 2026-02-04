@@ -41,7 +41,7 @@ export default function EventCard({ event }: EventCardProps) {
         <div 
           className="absolute inset-0 z-0 opacity-20 group-hover:opacity-30 transition-opacity duration-300"
           style={{
-            backgroundImage: 'url(/logo.png)',
+            backgroundImage: 'url(/jb6_logo.png)',
             backgroundSize: 'contain',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat'

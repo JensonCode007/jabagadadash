@@ -15,45 +15,122 @@ interface GalleryImage {
 const galleryData: GalleryImage[] = [
   {
     id: 1,
-    src: "/jabagadadash_6.png",
-    alt: "Event 1",
-    event: "Main Event",
-    year: "2025"
+    src: "/Chinmaya Vishwa Vidyapeeth Deemed to be University successfully conducted its annual intercolleg.jpg.jpeg",
+    alt: "Chinmaya Vishwa Vidyapeeth Event 1",
+    event: "Annual Intercollegiate Event",
+    year: "2024"
   },
   {
     id: 2,
-    src: "/logo.png",
-    alt: "Event 2",
-    event: "Technical Event",
-    year: "2025"
+    src: "/Chinmaya Vishwa Vidyapeeth Deemed to be University successfully conducted its annual intercolleg (1).jpg.jpeg",
+    alt: "Chinmaya Vishwa Vidyapeeth Event 2",
+    event: "Annual Intercollegiate Event",
+    year: "2024"
   },
   {
     id: 3,
-    src: "/jabagadadash_6.png",
-    alt: "Event 3",
-    event: "Cultural Event",
-    year: "2025"
+    src: "/Chinmaya Vishwa Vidyapeeth Deemed to be University successfully conducted its annual intercolleg (2).jpg.jpeg",
+    alt: "Chinmaya Vishwa Vidyapeeth Event 3",
+    event: "Annual Intercollegiate Event",
+    year: "2024"
   },
   {
     id: 4,
-    src: "/logo.png",
-    alt: "Event 4",
-    event: "Sports Event",
+    src: "/Chinmaya Vishwa Vidyapeeth Deemed to be University successfully conducted its annual intercolleg (3).jpg.jpeg",
+    alt: "Chinmaya Vishwa Vidyapeeth Event 4",
+    event: "Annual Intercollegiate Event",
     year: "2024"
   },
   {
     id: 5,
-    src: "/jabagadadash_6.png",
-    alt: "Event 5",
-    event: "Literary Event",
+    src: "/Chinmaya Vishwa Vidyapeeth Deemed to be University successfully conducted its annual intercolleg (4).jpg.jpeg",
+    alt: "Chinmaya Vishwa Vidyapeeth Event 5",
+    event: "Annual Intercollegiate Event",
     year: "2024"
   },
   {
     id: 6,
-    src: "/logo.png",
-    alt: "Event 6",
-    event: "Management Event",
+    src: "/Chinmaya Vishwa Vidyapeeth Deemed to be University successfully conducted its annual intercolleg (5).jpg.jpeg",
+    alt: "Chinmaya Vishwa Vidyapeeth Event 6",
+    event: "Annual Intercollegiate Event",
     year: "2024"
+  },
+  {
+    id: 7,
+    src: "/Chinmaya Vishwa Vidyapeeth Deemed to be University successfully conducted its annual intercolleg (6).jpg.jpeg",
+    alt: "Chinmaya Vishwa Vidyapeeth Event 7",
+    event: "Annual Intercollegiate Event",
+    year: "2024"
+  },
+  {
+    id: 8,
+    src: "/Chinmaya Vishwa Vidyapeeth Deemed to be University successfully conducted its annual intercolleg (7).jpg.jpeg",
+    alt: "Chinmaya Vishwa Vidyapeeth Event 8",
+    event: "Annual Intercollegiate Event",
+    year: "2024"
+  },
+  {
+    id: 9,
+    src: "/Chinmaya Vishwa Vidyapeeth Deemed to be University successfully conducted its annual intercolleg (8).jpg.jpeg",
+    alt: "Chinmaya Vishwa Vidyapeeth Event 9",
+    event: "Annual Intercollegiate Event",
+    year: "2024"
+  },
+  {
+    id: 10,
+    src: "/1.jpg",
+    alt: "Event Photo 1",
+    event: "Jabagadadash Event",
+    year: "2023"
+  },
+  {
+    id: 11,
+    src: "/2.jpg",
+    alt: "Event Photo 2",
+    event: "Jabagadadash Event",
+    year: "2023"
+  },
+  {
+    id: 12,
+    src: "/3.jpg",
+    alt: "Event Photo 3",
+    event: "Jabagadadash Event",
+    year: "2023"
+  },
+  {
+    id: 13,
+    src: "/4.jpg",
+    alt: "Event Photo 4",
+    event: "Jabagadadash Event",
+    year: "2023"
+  },
+  {
+    id: 14,
+    src: "/5.jpg",
+    alt: "Event Photo 5",
+    event: "Jabagadadash Event",
+    year: "2023"
+  },
+  {
+    id: 15,
+    src: "/6.jpg",
+    alt: "Event Photo 6",
+    event: "Jabagadadash Event",
+    year: "2023"
+  },
+  {
+    id: 16,
+    src: "/7.jpg",
+    alt: "Event Photo 7",
+    event: "Jabagadadash Event",
+    year: "2023"
+  },
+  {
+    id: 17,
+    src: "/8.jpg",
+    alt: "Event Photo 8",
+    event: "Jabagadadash Event",
+    year: "2023"
   }
 ];
 
@@ -100,15 +177,17 @@ export default function Gallery() {
                 <div
                   key={image.id}
                   onClick={() => setSelectedImage(image)}
-                  className="group relative cursor-pointer overflow-hidden rounded-lg bg-[rgba(255,255,255,0.04)] border border-[rgba(239,219,146,0.2)] hover:border-[#efdb92] transition-all duration-300 h-64 flex items-center justify-center"
+                  className="group relative cursor-pointer bg-[rgba(255,255,255,0.04)] border border-[rgba(239,219,146,0.2)] hover:border-[#efdb92] transition-all duration-300 h-64 rounded-2xl overflow-hidden"
                 >
-                  <Image
-                    src={image.src}
-                    alt={image.alt}
-                    fill
-                    className="object-contain group-hover:scale-110 transition-transform duration-300 p-4"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4">
+                  <div className="relative w-full h-full flex items-center justify-center">
+                    <Image
+                      src={image.src}
+                      alt={image.alt}
+                      fill
+                      className="object-contain group-hover:scale-110 transition-transform duration-300"
+                    />
+                  </div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4 pointer-events-none">
                     <p className="text-[#efdb92] font-semibold text-lg">{image.event}</p>
                     <p className="text-gray-300 text-sm">{image.year}</p>
                   </div>

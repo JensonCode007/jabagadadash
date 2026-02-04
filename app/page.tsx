@@ -26,9 +26,9 @@ export default function Home() {
     <Wrapper>
         <div className="w-full h-screen bg-black">
             <LightRays className="absolute -z-10 left-0" followMouse={false} raysColor="#efdb92" raysSpeed={0.5} raysOrigin="top" lightSpread={2} pulsating={false}/>
-          <div className="absolute -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 flex items-center justify-center w-full flex-col">
-            <Image src={LandingLogo} className="w-80" alt="landing-logo"/>
-            <Image src={LandingLogo2} className="w-150 mt-5" alt="landing-logo"/>
+          <div className="absolute -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 flex items-center justify-center w-full flex-col max-sm:px-4">
+            <Image src={LandingLogo} className="w-150 sm:w-80 max-sm:w-55" alt="landing-logo"/>
+            <Image src={LandingLogo2} className="w-150 mt-5 max-sm:w-55 max-sm:mt-3" alt="landing-logo"/>
 
             <Countdown/>
           </div>
@@ -68,9 +68,9 @@ export default function Home() {
           */}
           <div className="w-60 h-px bg-linear-to-r from-transparent via-[#efdb92] to-transparent mx-auto absolute mt-25 left-1/2 -translate-x-1/2 -translate-y-1/2"></div>
 
-          <div className="w-full h-250 bg-black flex flex-col justify-center items-center p-10">
-            <h1 className="text-[#efdb92] text-6xl text-center py-18 font-cormorant">Updates</h1>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto w-full">
+          <div className="w-full h-250 bg-black flex flex-col justify-center items-center p-10 max-sm:p-4 max-sm:pb-24 max-sm:h-auto">
+            <h1 className="text-[#efdb92] text-6xl text-center py-18 font-cormorant max-sm:text-4xl max-sm:py-8">Updates</h1>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto w-full max-sm:gap-6">
               {datObj.map((item, index)=>
                   <UpdatesComponents key={index} title={item.title} desc={item.desc} imagesrc={item.imagesrc}/>
               )}

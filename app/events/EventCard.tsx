@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 import { InteractiveHoverButton } from "@/components/ui/interactive-hover-button"
 import { MapPin } from 'lucide-react';
 import { CalendarDays } from 'lucide-react';
+import Image from 'next/image';
 
 interface EventCardProps {
   event: Event;
@@ -38,18 +39,22 @@ export default function EventCard({ event }: EventCardProps) {
         className="relative bg-[#151515] border border-[#2a2a2a] rounded-xl p-4 sm:p-5 md:p-6 hover:border-[#efdb92] hover:shadow-[0_0_20px_rgba(239,219,146,0.15)] hover:scale-105 transition-all duration-300 aspect-square flex flex-col justify-end cursor-pointer overflow-hidden group"
       >
         {/* Background logo image */}
-        <div 
-          className="absolute inset-0 z-0 opacity-20 group-hover:opacity-30 transition-opacity duration-300"
-          style={{
-            backgroundImage: 'url(/jb6_logo.png)',
-            backgroundSize: 'contain',
-            backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat'
-          }}
-        />
+        {event.image && (
+          <div className="absolute inset-0 z-0 opacity-40 group-hover:opacity-25 transition-opacity duration-300">
+            <Image
+              src={event.image}
+              alt={event.title}
+              fill
+              className="object-contain"
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              quality={100}
+              priority={false}
+            />
+          </div>
+        )}
         
         {/* Background gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a]/40 via-transparent to-[#0a0a0a]/95 z-[1]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a]/30 via-transparent to-[#0a0a0a]/90 z-[1]" />
         
         <div className="relative z-[2] flex flex-col sm:flex-row gap-2 sm:gap-3">
           {/* Event Details */}
@@ -123,16 +128,17 @@ export default function EventCard({ event }: EventCardProps) {
               </div>
 
               {/* Registration Fee */}
-              {event.registrationFee && (
+              {/*{event.registrationFee && (
                 <div>
                   <h3 className="text-[#efdb92] text-lg sm:text-xl font-semibold mb-2 sm:mb-3">Registration Fee</h3>
                   <div className="bg-[#151515] border border-[#2a2a2a] rounded-lg p-4">
                     <p className="text-gray-300 text-lg font-semibold">{event.registrationFee}</p>
                   </div>
                 </div>
-              )}
+              )} 
 
               {/* Cash Prize */}
+              {/*
               {event.cashPrize && (
                 <div>
                   <h3 className="text-[#efdb92] text-lg sm:text-xl font-semibold mb-2 sm:mb-3">Cash Prize</h3>
@@ -165,14 +171,16 @@ export default function EventCard({ event }: EventCardProps) {
                   </div>
                 </div>
               )}
+              */}
 
               {/* Event Guidelines */}
-              <div>
+              {/*<div>
                 <h3 className="text-[#efdb92] text-lg sm:text-xl font-semibold mb-2 sm:mb-3">Event Guidelines</h3>
                 <p className="text-gray-400 leading-relaxed whitespace-pre-line">
                   {event.guidelines}
                 </p>
               </div>
+              */}
 
               {/* Event Coordinator */}
               {event.coordinator && (

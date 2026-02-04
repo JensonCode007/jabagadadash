@@ -7,13 +7,10 @@ export default function Rules(){
         <div className="min-h-screen bg-[#0a0a0a] px-8 py-16">
             <div className="max-w-4xl mx-auto">
                 {/* Header */}
-                <div className="text-center mb-20 animate-fade-in">
-                    <h1 className="text-[#efdb92] text-6xl font-bold mb-6 tracking-tight font-cormorant">
+                <div className="text-center mb-15 animate-fade-in">
+                    <h1 className="text-[#efdb92] text-5xl font-bold tracking-tight font-cormorant">
                         Rules & Regulations
                     </h1>
-                    <p className="text-gray-400 text-lg">
-                        Jabagadadash 6.0 - Please read carefully before registering
-                    </p>
                 </div>
 
                 {/* Rules Content - Flowing Layout */}

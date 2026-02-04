@@ -6,9 +6,8 @@ const navItems = [
     { name: "Home", href: "/", page: 1 },
     { name: "Events", href: "/events", page: 2 },
     { name: "Rules", href: "/rules", page: 3 },
-    { name: "Schedule", href: "/schedule", page: 4 },
-    { name: "Gallery", href: "/gallery", page: 5 },
-    { name: "About", href: "/about", page: 6 },
+    { name: "Gallery", href: "/gallery", page: 4 },
+    { name: "About", href: "/about", page: 5 },
 ]
 
 export default function Navbar(currentPage: {currentPage: Number} = {currentPage: 1}){

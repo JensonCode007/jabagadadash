@@ -148,7 +148,7 @@ export default function Gallery() {
     <Wrapper>
       <div className="min-h-screen bg-[#0a0a0a] px-8 py-16">
         <div className="max-w-7xl mx-auto">
-          <h1 className="text-center text-[#efdb92] text-5xl font-bold mb-4 tracking-tight">
+          <h1 className="text-center text-[#efdb92] text-5xl font-cormorant font-bold mb-10 tracking-tight">
             Gallery
           </h1>
 

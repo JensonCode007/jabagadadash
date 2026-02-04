@@ -2,8 +2,8 @@
   {
     "id": "1",
     "title": "Drishti",
-    "date": "2026-03-20",
-    "location": "Main Campus",
+    "date": "2026-02-19",
+    "location": "LP Campus",
     "category": "Management",
     "tags": ["Management Fest", "Creative", "Reels", "Team Event"],
     "description": "A reels making competition where teams of up to 2 participants showcase their creativity through short video content.",
@@ -20,8 +20,8 @@
   {
     "id": "2",
     "title": "Navodayam",
-    "date": "2026-03-20",
-    "location": "Seminar Hall A",
+    "date": "2026-02-19",
+    "location": "LP Campus",
     "category": "Management",
     "tags": ["Management Fest", "Pitching", "Startup", "Team Event"],
     "description": "An idea pitching competition where teams of up to 4 participants present their innovative business ideas.",
@@ -38,8 +38,8 @@
   {
     "id": "3",
     "title": "Kurukshetra",
-    "date": "2026-03-21",
-    "location": "Auditorium",
+    "date": "2026-02-20",
+    "location": "LP Campus",
     "category": "Management",
     "tags": ["Management Fest", "Auction", "Strategy", "Team Event"],
     "description": "A strategic IPL Auction simulation where teams compete to build the best squad within budget constraints.",
@@ -56,8 +56,8 @@
   {
     "id": "4",
     "title": "Chakravyuham",
-    "date": "2026-03-21",
-    "location": "Main Block",
+    "date": "2026-02-20",
+    "location": "LP Campus",
     "category": "Management",
     "tags": ["Management Fest", "Leadership", "Strategy", "Team Event"],
     "description": "The ultimate test for management teams, combining leadership, strategy, and teamwork challenges.",
@@ -69,13 +69,13 @@
       "phone": "9745197549, 7306710772"
     },
     "image": "/chakrvyuha.png",
-    "registrationLink": "https://tally.so/r/jaPzba"
+    "registrationLink": "https://tally.so/r/0QOk7y"
   },
   {
     "id": "5",
     "title": "Vyapara Tantram",
-    "date": "2026-03-22",
-    "location": "Finance Lab",
+    "date": "2026-02-21",
+    "location": "LP Campus",
     "category": "Management",
     "tags": ["Management Fest", "Trading", "Business", "Simulation"],
     "description": "A trading simulation competition where teams experience real-world market dynamics.",
@@ -93,8 +93,8 @@
   {
     "id": "6",
     "title": "Nirman",
-    "date": "2026-03-20",
-    "location": "Computer Lab 1",
+    "date": "2026-02-19",
+    "location": "LP Campus",
     "category": "Tech",
     "tags": ["Tech Fest", "Hackathon", "Coding", "Team Event"],
     "description": "A major hackathon event where participants build innovative solutions.",
@@ -112,8 +112,8 @@
   {
     "id": "7",
     "title": "Daksh",
-    "date": "2026-03-20",
-    "location": "Seminar Hall B",
+    "date": "2026-02-19",
+    "location": "LP Campus",
     "category": "Tech",
     "tags": ["Tech Fest", "Workshop", "Learning"],
     "description": "Technical workshop series for skill development and learning.",
@@ -130,8 +130,8 @@
   {
     "id": "8",
     "title": "Yodha",
-    "date": "2026-03-21",
-    "location": "Student Center",
+    "date": "2026-02-20",
+    "location": "LP Campus",
     "category": "Tech",
     "tags": ["Tech Fest", "Gaming", "Esports", "Competition"],
     "description": "A competitive gaming tournament where players battle in the eSports arena.",
@@ -149,8 +149,8 @@
   {
     "id": "9",
     "title": "Ranam",
-    "date": "2026-03-21",
-    "location": "Computer Lab 2",
+    "date": "2026-02-20",
+    "location": "LP Campus",
     "category": "Tech",
     "tags": ["Tech Fest", "Coding", "Competition"],
     "description": "A coding competition for top developers to solve complex algorithms.",
@@ -165,27 +165,10 @@
     "registrationLink": "https://tally.so/r/lbrzA5"
   },
   {
-    "id": "10",
-    "title": "MayaSabha",
-    "date": "2026-03-21",
-    "location": "VR Hub",
-    "category": "Tech",
-    "tags": ["Tech Fest", "VR", "Experience"],
-    "description": "Experience cutting-edge Virtual Reality technology at the VR Hub.",
-    "guidelines": "• VR headsets provided\n• Multiple VR experiences available\n• Time slot booking required\n• Safety guidelines must be followed",
-    "registrationFee": "50/- per use",
-    "coordinator": {
-      "name": "Shamna Khaludeen Kunju, Advaith Santhosh",
-      "phone": "9995449128, 9495858085"
-    },
-    "image": "/MayaSabha.png",
-    "registrationLink": "https://tally.so/r/MeRVEp"
-  },
-  {
     "id": "11",
     "title": "Eka-Lakshya",
-    "date": "2026-03-22",
-    "location": "Quadrangle",
+    "date": "2026-02-21",
+    "location": "LP Campus",
     "category": "Tech",
     "tags": ["Tech Fest", "Robotics", "Competition"],
     "description": "A robotics line follower competition where teams build and race autonomous robots.",
@@ -202,8 +185,8 @@
   {
     "id": "12",
     "title": "Idea Dharshan",
-    "date": "2026-03-22",
-    "location": "Conference Hall",
+    "date": "2026-02-21",
+    "location": "LP Campus",
     "category": "Tech",
     "tags": ["Tech Fest", "Poster", "Research"],
     "description": "A poster and paper presentation event where participants showcase their research and innovative ideas.",
@@ -220,8 +203,8 @@
   {
     "id": "13",
     "title": "Pradarshini",
-    "date": "2026-03-22",
-    "location": "Exhibition Ground",
+    "date": "2026-02-21",
+    "location": "LP Campus",
     "category": "Tech",
     "tags": ["Tech Fest", "Project", "Exhibition"],
     "description": "Bring and showcase your best technical projects in this major exhibition event.",
@@ -238,8 +221,8 @@
   {
     "id": "14",
     "title": "Web Aakriti",
-    "date": "2026-03-22",
-    "location": "Computer Lab 3",
+    "date": "2026-02-21",
+    "location": "LP Campus",
     "category": "Tech",
     "tags": ["Tech Fest", "Web Development", "Competition"],
     "description": "A web development challenge where participants design and build creative websites.",
@@ -257,8 +240,8 @@
   {
     "id": "15",
     "title": "Gudha-Bhav",
-    "date": "2026-03-20",
-    "location": "Art Gallery",
+    "date": "2026-02-19",
+    "location": "LP Campus",
     "category": "Cultural",
     "tags": ["Cultural Fest", "Photography", "Competition"],
     "description": "A photography contest themed 'The Mystery Emotion Hunt' where teams capture intriguing emotions.",
@@ -275,8 +258,8 @@
   {
     "id": "16",
     "title": "Trinetra",
-    "date": "2026-03-20",
-    "location": "Campus Grounds",
+    "date": "2026-02-19",
+    "location": "LP Campus",
     "category": "Cultural",
     "tags": ["Cultural Fest", "Photography", "Competition"],
     "description": "A photography contest themed 'The Eye of God Challenge' where participants showcase unique perspectives.",
@@ -293,8 +276,8 @@
   {
     "id": "17",
     "title": "Chitraangika",
-    "date": "2026-03-21",
-    "location": "Open Stage",
+    "date": "2026-02-20",
+    "location": "LP Campus",
     "category": "Cultural",
     "tags": ["Cultural Fest", "Mime", "Performance", "Team Event"],
     "description": "A group mime competition where teams express stories without words through creative performances.",
@@ -311,8 +294,8 @@
   {
     "id": "18",
     "title": "Taranga",
-    "date": "2026-03-22",
-    "location": "Main Auditorium",
+    "date": "2026-02-21",
+    "location": "LP Campus",
     "category": "Cultural",
     "tags": ["Cultural Fest", "Fashion", "Performance"],
     "description": "The grand fashion showcase event where teams walk the ramp in style.",
@@ -329,8 +312,8 @@
   {
     "id": "19",
     "title": "Dhruva '26",
-    "date": "2026-03-22",
-    "location": "Concert Ground",
+    "date": "2026-02-21",
+    "location": "LP Campus",
     "category": "Cultural",
     "tags": ["Cultural Fest", "Music", "Band", "Competition"],
     "description": "The ultimate Western/Eastern Band Competition - Battle of the bands.",
@@ -347,8 +330,8 @@
   {
     "id": "20",
     "title": "Yugma",
-    "date": "2026-03-21",
-    "location": "Auditorium",
+    "date": "2026-02-20",
+    "location": "LP Campus",
     "category": "Cultural",
     "tags": ["Cultural Fest", "Performance", "Duo"],
     "description": "A duo performance competition where teams showcase their chemistry through creative performances.",
@@ -366,8 +349,8 @@
   {
     "id": "21",
     "title": "Swarabhinaya",
-    "date": "2026-03-21",
-    "location": "Mini Hall",
+    "date": "2026-02-20",
+    "location": "LP Campus",
     "category": "Cultural",
     "tags": ["Cultural Fest", "Dubbing", "Competition"],
     "description": "A scene dubbing competition where teams voice over their favorite scenes.",
@@ -385,8 +368,8 @@
   {
     "id": "22",
     "title": "Squid Game",
-    "date": "2026-03-21",
-    "location": "Grounds",
+    "date": "2026-02-20",
+    "location": "LP Campus",
     "category": "Psychology",
     "tags": ["Psychology Fest", "Games", "Competition"],
     "description": "A survival game challenge based on the series where participants compete in thrilling challenges.",
@@ -403,8 +386,8 @@
   {
     "id": "23",
     "title": "Dyota",
-    "date": "2026-03-21",
-    "location": "Psychology Dept",
+    "date": "2026-02-20",
+    "location": "LP Campus",
     "category": "Psychology",
     "tags": ["Psychology Fest", "Challenge"],
     "description": "A psychology themed event testing your mental agility and psychological knowledge.",
@@ -421,8 +404,8 @@
   {
     "id": "24",
     "title": "Thanatos",
-    "date": "2026-03-21",
-    "location": "Psychology Dept",
+    "date": "2026-02-20",
+    "location": "LP Campus",
     "category": "Psychology",
     "tags": ["Psychology Fest", "Challenge"],
     "description": "Challenge your mind in this psychology-based competition.",
@@ -440,8 +423,8 @@
   {
     "id": "25",
     "title": "Jigisha - Inkquest",
-    "date": "2026-03-21",
-    "location": "Library Hall",
+    "date": "2026-02-20",
+    "location": "LP Campus",
     "category": "Literary",
     "tags": ["Literary Fest", "Quest", "Books"],
     "description": "A literary quest with book hampers as prizes.",
@@ -453,13 +436,13 @@
       "phone": "8590962198"
     },
     "image": "/jigisha.png",
-    "registrationLink": "https://tally.so/r/vGYz0X"
+    "registrationLink": "https://tally.so/r/GxlboQ"
   },
   {
     "id": "26",
     "title": "Ganitha - Lakshya",
-    "date": "2026-03-21",
-    "location": "Math Dept",
+    "date": "2026-02-20",
+    "location": "LP Campus",
     "category": "Literary",
     "tags": ["Literary Fest", "Mathematics", "Logic"],
     "description": "A mathematics and logic event testing your problem-solving skills.",
@@ -476,8 +459,8 @@
   {
     "id": "27",
     "title": "Tejas",
-    "date": "2026-03-21",
-    "location": "Language Hall",
+    "date": "2026-02-20",
+    "location": "LP Campus",
     "category": "Literary",
     "tags": ["Literary Fest", "Quiz", "Sanskrit"],
     "description": "A Sanskrit knowledge quiz testing your understanding of the ancient language.",
@@ -495,8 +478,8 @@
   {
     "id": "28",
     "title": "7s Football",
-    "date": "2026-03-22",
-    "location": "College Stadium",
+    "date": "2026-02-21",
+    "location": "LP Campus",
     "category": "General",
     "tags": ["Sports", "Football", "Intercollege"],
     "description": "An intercollege football tournament - the ultimate football showdown.",
@@ -513,8 +496,8 @@
   {
     "id": "29",
     "title": "Lakshya '26",
-    "date": "2026-03-22",
-    "location": "Entire Campus",
+    "date": "2026-02-21",
+    "location": "LP Campus",
     "category": "General",
     "tags": ["Treasure Hunt", "Adventure", "Team Event"],
     "description": "A campus-wide treasure hunt where teams solve clues to find the treasure.",

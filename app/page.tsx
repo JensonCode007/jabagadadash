@@ -9,21 +9,15 @@ import UpdatesComponents from "./components/updatescomponent";
 const datObj = [
     {
         title: "Accomodation",
-        desc: "blah blah",
+        desc: "",
         link: "",
-        imagesrc: ""
+        imagesrc: "/accomodation.jpg"
     },
     {
         title: "Travel",
-        desc: "blah blew",
+        desc: "",
         link: "",
-        imagesrc: ""
-    },
-    {
-        title: "Schedule",
-        desc: "blah bleo",
-        link: "/schedule",
-        imagesrc: ""
+        imagesrc: "/travel.png"
     }
 ]
 
@@ -78,7 +72,7 @@ export default function Home() {
             <h1 className="text-[#efdb92] text-6xl text-center py-18 font-cormorant">Updates</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto w-full">
               {datObj.map((item, index)=>
-                  <UpdatesComponents key={index} title={item.title} desc={item.desc}/>
+                  <UpdatesComponents key={index} title={item.title} desc={item.desc} imagesrc={item.imagesrc}/>
               )}
             </div>
           </div>

@@ -26,7 +26,7 @@ export default function EventsPage() {
           
           {/* Category Filter */}
           <div className="flex items-center justify-center mb-4 sm:mb-5 md:mb-6">
-            <div className="bg-[rgba(255,255,255,0.04)] backdrop-blur-lg rounded-xl sm:rounded-2xl md:rounded-full px-2 sm:px-4 md:px-6 py-1.5 sm:py-2 md:py-3 border border-[rgba(255,255,255,0.16)] inline-flex flex-wrap gap-2 sm:gap-3 max-w-full justify-center">
+            <div className="bg-[rgba(255,255,255,0.04)] backdrop-blur-lg rounded-xl sm:rounded-2xl md:rounded-full px-2 sm:px-4 md:px-6 py-3 sm:py-2 md:py-3 border border-[rgba(255,255,255,0.16)] inline-flex flex-wrap gap-2 sm:gap-3 max-w-full justify-center">
               {categories.map((category) => (
                 <button
                   key={category}
@@ -45,12 +45,12 @@ export default function EventsPage() {
 
           {/* Tags Filter */}
           <div className="flex items-center justify-center mb-8 sm:mb-10 md:mb-12">
-            <div className="bg-[rgba(255,255,255,0.04)] backdrop-blur-lg rounded-lg sm:rounded-xl md:rounded-full px-2 sm:px-3 md:px-4 py-1 sm:py-1.5 border border-[rgba(255,255,255,0.16)] inline-flex flex-wrap gap-1.5 sm:gap-2 max-w-full justify-center">
+            <div className="bg-[rgba(255,255,255,0.04)] backdrop-blur-lg rounded-lg sm:rounded-xl md:rounded-full px-3 sm:px-3 md:px-4 py-3 sm:py-1.5 border border-[rgba(255,255,255,0.16)] inline-flex flex-wrap gap-1.5 sm:gap-2 max-w-full justify-center">
               {tags.map((tag) => (
                 <button
                   key={tag}
                   onClick={() => setSelectedTag(tag)}
-                  className={`px-2 font-jetbrains-mono sm:px-3 md:px-4 py-0.5 sm:py-1 rounded-md sm:rounded-lg md:rounded-full text-[#efdb92] text-xs sm:text-sm transition-all duration-300 whitespace-nowrap ${
+                  className={`px-2 py-1.5 font-jetbrains-mono sm:px-3 md:px-4 py-0.5 sm:py-1 rounded-md sm:rounded-lg md:rounded-full text-[#efdb92] text-xs sm:text-sm transition-all duration-300 whitespace-nowrap ${
                     selectedTag === tag
                       ? 'bg-[rgba(239,219,146,0.2)]'
                       : 'hover:bg-[rgba(255,255,255,0.09)]'

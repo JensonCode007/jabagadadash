@@ -13,6 +13,8 @@ import BackgroundParticles from "@/components/BackgroundParticles";
 import { useState } from 'react';
 import EventModal from "@/components/EventModal";
 import { mockEvents } from "./events/eventData";
+import FAQItem from "@/components/FAQItem";
+import faqData from "./faq.json";
 
 const datObj = [
     {
@@ -148,12 +150,21 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="w-full h-200 bg-black flex flex-col justify-center items-center py-10 max-sm:p-4 max-sm:pb-24 max-sm:h-auto">
+         { /*<div className="w-full h-200 bg-black flex flex-col justify-center items-center py-10 max-sm:p-4 max-sm:pb-24 max-sm:h-auto">
             <h1 className="text-[#efdb92] text-5xl text-center py-18 font-cormorant max-sm:text-3xl max-sm:py-8">Updates</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto w-full max-sm:gap-6">
               {datObj.map((item, index)=>
                   <UpdatesComponents key={index} title={item.title} desc={item.desc} imagesrc={item.imagesrc} modalDesc={item.modalDesc} link={item.link}/>
               )}
+            </div>
+          </div>*/}
+
+          <div className="w-full bg-black py-16 sm:pb-35 flex flex-col justify-center items-center max-sm:p-4">
+            <h1 className="text-[#efdb92] text-5xl text-center py-8 font-cormorant max-sm:text-3xl max-sm:py-6 mb-2">FAQs</h1>
+            <div className="max-w-4xl w-full mx-auto space-y-4 px-4">
+              {faqData.map((faq, index) => (
+                <FAQItem key={index} question={faq.question} answer={faq.answer} />
+              ))}
             </div>
           </div>
 

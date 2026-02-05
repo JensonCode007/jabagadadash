@@ -50,7 +50,7 @@ export default function AboutPage() {
           </div>
           
           {/* Placeholder for Map */}
-          <div className="border border-[rgba(239,219,146,0.3)] rounded-lg p-16 flex items-center justify-center mb-16">
+          <div className="border border-[rgba(239,219,146,0.3)] rounded-lg p-2 sm:p-4 md:p-8 flex items-center justify-center mb-16">
             <CampusMap></CampusMap>
           </div>
 
@@ -258,33 +258,43 @@ export default function AboutPage() {
                 </div>
               </div>
 
-              {/* General Events - Full Width */}
-              <div className="text-center">
-                <p className="text-[#efdb92] font-semibold text-xl mb-6 font-jetbrains-mono">General Events</p>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center">
-                  <div>
-                    <p className="font-medium">Shabaz Sha S.S <span className="text-gray-500 text-sm">(Football)</span></p>
-                    <a href="tel:+919745317135" className="text-gray-400 hover:text-[#efdb92] transition-colors text-sm">
-                      +91 9745317135
-                    </a>
+              {/* Row 3: Pyschology Fest and General Events */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-12 mb-12">
+                {/* Cultural Fest */}
+                <div className="text-center">
+                  <p className="text-[#efdb92] font-semibold text-xl mb-6 font-jetbrains-mono">Pyschology Fest</p>
+                  <div className="flex justify-center gap-8 flex-wrap">
+                    <div>
+                      <p className="font-medium">Aadithyan</p>
+                      <a href="tel:+919967843080" className="text-gray-400 hover:text-[#efdb92] transition-colors text-sm">
+                        +91 6282312058
+                      </a>
+                    </div>
+                    <div>
+                      <p className="font-medium">Swathi</p>
+                      <a href="tel:+916282261449" className="text-gray-400 hover:text-[#efdb92] transition-colors text-sm">
+                        +91 8921720870
+                      </a>
+                    </div>
                   </div>
-                  <div>
-                    <p className="font-medium">Vighnesh</p>
-                    <a href="tel:+919061633956" className="text-gray-400 hover:text-[#efdb92] transition-colors text-sm">
-                      +91 9061633956
-                    </a>
-                  </div>
-                  <div>
-                    <p className="font-medium">Anagha Anil</p>
-                    <a href="tel:+918590307578" className="text-gray-400 hover:text-[#efdb92] transition-colors text-sm">
-                      +91 8590307578
-                    </a>
-                  </div>
-                  <div>
-                    <p className="font-medium">Archana</p>
-                    <a href="tel:+918848325922" className="text-gray-400 hover:text-[#efdb92] transition-colors text-sm">
-                      +91 8848325922
-                    </a>
+                </div>
+
+                {/* Literary Fest */}
+                <div className="text-center">
+                  <p className="text-[#efdb92] font-semibold text-xl mb-6 font-jetbrains-mono">General Events</p>
+                  <div className="flex justify-center gap-8 flex-wrap">
+                    <div>
+                      <p className="font-medium">Anand Kiran</p>
+                      <a href="tel:+918075625563" className="text-gray-400 hover:text-[#efdb92] transition-colors text-sm">
+                        +91 7907269067
+                      </a>
+                    </div>
+                    <div>
+                      <p className="font-medium">Anagha Anil</p>
+                      <a href="tel:+918102083452" className="text-gray-400 hover:text-[#efdb92] transition-colors text-sm">
+                        +91 8590307578
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>

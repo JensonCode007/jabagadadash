@@ -1,3 +1,5 @@
+'use client';
+
 import LandingLogo from "../public/jb6_logo.png"
 import LandingLogo2 from "../public/jb6_bg_removed.png"
 import Image from "next/image";
@@ -6,6 +8,7 @@ import Countdown from "@/components/countdown";
 import Wrapper from "@/components/wrapper";
 import UpdatesComponents from "@/components/updatescomponent";
 import Link from "next/link";
+import BackgroundParticles from "@/components/BackgroundParticles";
 
 const datObj = [
     {
@@ -27,6 +30,7 @@ const datObj = [
 
 export default function Home() {
   return (<>
+    <BackgroundParticles />
     <Wrapper>
         <div className="w-full h-screen bg-black">
             <LightRays className="absolute -z-10 left-0" followMouse={false} raysColor="#efdb92" raysSpeed={0.5} raysOrigin="top" lightSpread={2} pulsating={false}/>

@@ -12,7 +12,7 @@ const datObj = [
         desc: "Stay with us!",
         link: "",
         imagesrc: "/accomodation.jpg",
-        modaldesc: "Hostel accommodation is available for outstation participants attending the university fest. Enjoy a safe and comfortable stay on campus—limited slots, so register early!",
+        modalDesc: "Hostel accommodation is available for outstation participants attending the university fest. Enjoy a safe and comfortable stay on campus—limited slots, so register early!",
         
     },
     {
@@ -20,7 +20,7 @@ const datObj = [
         desc: "Travel Made Easy!",
         link: "",
         imagesrc: "/travel.png",
-        modaldesc: "The university offers travel assistance for outstation participants during the college fest. Register early to avail these facilities."
+        modalDesc: "The university offers travel assistance for outstation participants during the college fest. Register early to avail these facilities."
     }
 ]
 
@@ -75,7 +75,7 @@ export default function Home() {
             <h1 className="text-[#efdb92] text-6xl text-center py-18 font-cormorant max-sm:text-4xl max-sm:py-8">Updates</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto w-full max-sm:gap-6">
               {datObj.map((item, index)=>
-                  <UpdatesComponents key={index} title={item.title} desc={item.desc} imagesrc={item.imagesrc} modalDesc={item.modaldesc}/>
+                  <UpdatesComponents key={index} title={item.title} desc={item.desc} imagesrc={item.imagesrc} modalDesc={item.modalDesc} link={item.link}/>
               )}
             </div>
           </div>

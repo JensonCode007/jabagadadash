@@ -1,6 +1,6 @@
 'use client';
 
-import Wrapper from "../components/wrapper";
+import Wrapper from "../../components/wrapper";
 import { useState } from "react";
 import Image from "next/image";
 

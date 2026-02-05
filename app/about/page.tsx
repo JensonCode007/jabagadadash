@@ -1,7 +1,7 @@
 "use client";
-import Wrapper from "../components/wrapper";
+import Wrapper from "../../components/wrapper";
 import { Train, Bus } from "lucide-react";
-import CampusMap from "../components/mapView";
+import CampusMap from "../../components/mapView";
 import Image from "next/image";
 
 export default function AboutPage() {

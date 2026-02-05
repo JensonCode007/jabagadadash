@@ -1,6 +1,6 @@
 'use client';
 
-import Wrapper from "../components/wrapper";
+import Wrapper from "../../components/wrapper";
 import EventCard from "./EventCard";
 import { mockEvents } from "./eventData";
 import { useState } from "react";

@@ -1,5 +1,5 @@
 "use client";
-import Wrapper from "../components/wrapper";
+import Wrapper from "../../components/wrapper";
 
 export default function Rules(){
     return(

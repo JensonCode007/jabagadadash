@@ -5,6 +5,7 @@ import LightRays from "@/components/LightRays"
 import Countdown from "@/components/countdown";
 import Wrapper from "@/components/wrapper";
 import UpdatesComponents from "@/components/updatescomponent";
+import Link from "next/link";
 
 const datObj = [
     {
@@ -34,6 +35,41 @@ export default function Home() {
             <Image src={LandingLogo2} className="w-150 mt-5 max-sm:w-55 max-sm:mt-3" alt="landing-logo"/>
 
             <Countdown/>
+            <Link 
+              href={"/events"} 
+              className="relative flex justify-center items-center rounded-full px-12 py-4 mt-8
+              max-sm:px-6 max-sm:py-2.5 max-sm:mt-5
+              font-jetbrains-mono font-semibold text-base tracking-wide
+              max-sm:text-sm max-sm:tracking-normal
+              border-2 border-[#efdb926f] text-[#efdb92] bg-transparent
+              overflow-hidden group cursor-pointer
+              transition-all duration-500
+              hover:border-transparent hover:text-black
+              hover:scale-110 hover:rotate-2
+              max-sm:hover:scale-105 max-sm:hover:rotate-1
+              active:scale-95 active:rotate-0
+              before:absolute before:inset-0 before:bg-[#efdb92] before:rounded-full
+              before:scale-x-0 before:origin-left before:transition-transform before:duration-500
+              hover:before:scale-x-100
+              after:absolute after:w-full after:h-full after:top-0 after:left-0
+              after:bg-gradient-to-r after:from-transparent after:via-white/20 after:to-transparent
+              after:translate-x-[-200%] after:skew-x-12 after:transition-transform after:duration-700
+              hover:after:translate-x-[200%]"
+            >
+              <span className="relative z-10 flex items-center gap-2 max-sm:gap-1.5">
+                <span className="inline-block transition-transform duration-300 group-hover:rotate-[360deg] max-sm:text-sm">
+                  ✦
+                </span>
+                <span>Register now</span>
+                <span className="inline-block transition-transform duration-300 group-hover:rotate-[360deg] group-hover:delay-100 max-sm:text-sm">
+                  ✦
+                </span>
+              </span>
+              
+              {/* Corner decorations */}
+              <span className="absolute top-2 right-4 w-2 h-2 border-t-2 border-r-2 border-[#efdb92] opacity-0 group-hover:opacity-100 transition-all duration-500 group-hover:top-1 group-hover:right-3 max-sm:hidden"></span>
+              <span className="absolute bottom-2 left-4 w-2 h-2 border-b-2 border-l-2 border-[#efdb92] opacity-0 group-hover:opacity-100 transition-all duration-500 group-hover:bottom-1 group-hover:left-3 max-sm:hidden"></span>
+            </Link>
           </div>
 
           {/*<div className="w-full h-screen bg-black flex flex-row">

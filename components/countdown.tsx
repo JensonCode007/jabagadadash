@@ -39,7 +39,7 @@ export default function Countdown() {
 
   return (
     <div className="flex flex-col items-center justify-center font-cormorant">
-      <div className="flex items-center mt-7">
+      <div className="flex items-center">
         <div className="flex flex-col items-center rounded-2xl p-4 md:p-4 min-w-[80px] md:min-w-[100px]">
           <span className="text-3xl md:text-4xl font-bold text-[#efdb92]">
             {timeLeft.days}

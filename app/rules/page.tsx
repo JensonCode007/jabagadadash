@@ -1,9 +1,12 @@
 "use client";
 import Wrapper from "@/components/wrapper";
+import BackgroundParticles from "@/components/BackgroundParticles";
 
 export default function Rules(){
     return(
-    <Wrapper>
+    <>
+      <BackgroundParticles />
+      <Wrapper>
         <div className="min-h-screen bg-[#0a0a0a] px-8 py-16">
             <div className="max-w-4xl mx-auto">
                 {/* Header */}
@@ -165,5 +168,6 @@ export default function Rules(){
             }
         `}</style>
     </Wrapper>
+    </>
     )
 }

@@ -3,10 +3,13 @@ import Wrapper from "@/components/wrapper";
 import { Train, Bus } from "lucide-react";
 import CampusMap from "@/components/mapView";
 import Image from "next/image";
+import BackgroundParticles from "@/components/BackgroundParticles";
 
 export default function AboutPage() {
   return (
-    <Wrapper>
+    <>
+      <BackgroundParticles />
+      <Wrapper>
         <div className="min-h-screen bg-[#0a0a0a] px-8 py-16">
       <div className="max-w-5xl mx-auto">
         <h1 className="text-center text-[#efdb92] text-5xl font-bold mb-10 tracking-tight animate-fade-in font-cormorant">
@@ -343,6 +346,6 @@ export default function AboutPage() {
             }
         `}</style>
     </Wrapper>
-    
+    </>
   );
 }

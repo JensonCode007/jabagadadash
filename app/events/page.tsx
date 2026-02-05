@@ -4,6 +4,7 @@ import Wrapper from "@/components/wrapper";
 import EventCard from "./EventCard";
 import { mockEvents } from "./eventData";
 import { useState } from "react";
+import BackgroundParticles from "@/components/BackgroundParticles";
 
 export default function EventsPage() {
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
@@ -19,7 +20,9 @@ export default function EventsPage() {
   });
 
   return (
-    <Wrapper>
+    <>
+      <BackgroundParticles />
+      <Wrapper>
       <div className="min-h-screen bg-[#0a0a0a] px-4 sm:px-6 md:px-8 py-10 pb-30">
         <div className="max-w-6xl mx-auto">
           <h1 className="flex items-center justify-center text-[#efdb92] text-3xl sm:text-4xl md:text-5xl font-bold mb-6 sm:mb-8 md:mb-10 tracking-tight font-cormorant">Events</h1>
@@ -76,5 +79,6 @@ export default function EventsPage() {
         </div>
       </div>
     </Wrapper>
+    </>
   );
 }

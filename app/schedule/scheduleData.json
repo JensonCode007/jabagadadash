@@ -67,6 +67,27 @@
           "cashPrize": "Prize Pool: 50,000/-"
         },
         {
+          "name": "Daksh (Workshop Series)",
+          "category": "Tech",
+          "date": "19/02/2026",
+          "registrationFee": "200/- per head",
+          "cashPrize": "N/A"
+        },
+        {
+          "name": "Pradarshini (Project Expo)",
+          "category": "Tech",
+          "date": "19/02/2026",
+          "registrationFee": "200/- per head",
+          "cashPrize": "23,000/-"
+        },
+        {
+          "name": "MayaSabha (VR Experience)",
+          "category": "Tech",
+          "date": "19/02/2026",
+          "registrationFee": "50/- per use",
+          "cashPrize": "N/A"
+        },
+        {
           "name": "Chinmaya 7s Football",
           "category": "General",
           "date": "19/02/2026",

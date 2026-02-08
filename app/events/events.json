@@ -98,7 +98,7 @@
     "category": "Tech",
     "tags": ["Day 1"],
     "description": "A high-intensity, 24-hour challenge where teams build innovative, working prototypes from scratch to solve real-world problem statements.",
-    "guidelines": "• Mode: Offline, continuous 24-hour coding challenge\n• Team Size: Up to 4 members; cross-branch teams allowed\n• Project Origin: Projects must be built entirely from scratch during the event; pre-written code is prohibited\n• Theme: Problem statements will be released at the commencement of the event\n• Resources: Participants must bring their own laptops, chargers, and peripheral devices\n• Evaluation: Includes two internal evaluation rounds and a final project presentation\n• Disqualification: Plagiarism, use of pre-built solutions, or failure to meet deadlines",
+    "guidelines": "• Mode: Offline, continuous 24-hour coding challenge\n• Team Size: Exactly 4 members; cross-branch teams allowed\n• Project Origin: Projects must be built entirely from scratch during the event; pre-written code is prohibited\n• Theme: Problem statements will be released at the commencement of the event\n• Resources: Participants must bring their own laptops, chargers, and peripheral devices\n• Evaluation: Includes two internal evaluation rounds and a final project presentation\n• Disqualification: Plagiarism, use of pre-built solutions, or failure to meet deadlines",
     "registrationFee": "200/- per head",
     "cashPrize": { "type": "prize-pool", "amount": "50,000" },
     "coordinator": {

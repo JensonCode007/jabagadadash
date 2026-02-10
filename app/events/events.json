@@ -500,7 +500,7 @@
     "category": "General",
     "tags": ["Day 1"],
     "description": "An intercollege football tournament - the ultimate football showdown.",
-    "guidelines": "• 7-a-side format\n• Intercollege participation\n• Knockout tournament\n• Standard football rules apply",
+    "guidelines": "• 7-a-side format\n• Intercollege participation\n• Knockout tournament\n• Standard football rules apply \n• Advance amount to be paid is ₹500 per team",
     "registrationFee": "1000/- per team",
     "cashPrize": { "type": "first-second", "first": "10,000", "second": "5,000" },
     "coordinator": {

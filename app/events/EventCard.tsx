@@ -187,6 +187,23 @@ export default function EventCard({ event }: EventCardProps) {
                 </div>
               )}
 
+              {/* Subevents */}
+              {event.subevents && event.subevents.length > 0 && (
+                <div>
+                  <h3 className="text-[#efdb92] text-lg sm:text-xl font-semibold mb-2 sm:mb-3">Subevents</h3>
+                  <div className="bg-[#151515] border border-[#2a2a2a] rounded-lg p-4">
+                    <ul className="space-y-2">
+                      {event.subevents.map((subevent, index) => (
+                        <li key={index} className="text-gray-300 flex items-start gap-3">
+                          <span className="text-[#efdb92] mt-1">•</span>
+                          <span>{subevent}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              )}
+
               {/* Event Guidelines */}
               <div>
                 <h3 className="text-[#efdb92] text-lg sm:text-xl font-semibold mb-2 sm:mb-3">Event Guidelines</h3>
@@ -224,16 +241,18 @@ export default function EventCard({ event }: EventCardProps) {
               )}
 
               {/* Registration Button */}
-              <div className="pt-2 sm:pt-4">
-                <a 
-                  href={event.registrationLink || '#'}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block w-full text-center bg-[#efdb92] text-black px-4 sm:px-6 py-3 sm:py-4 rounded-lg text-sm sm:text-base font-semibold hover:bg-black hover:text-white hover:shadow-[0_0_20px_rgba(239,219,146,0.3)] transition-all duration-300"
-                >
-                  Register for Event →
-                </a>
-              </div>
+              {event.title !== 'MayaSabha' && (
+                <div className="pt-2 sm:pt-4">
+                  <a 
+                    href={event.registrationLink || '#'}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block w-full text-center bg-[#efdb92] text-black px-4 sm:px-6 py-3 sm:py-4 rounded-lg text-sm sm:text-base font-semibold hover:bg-black hover:text-white hover:shadow-[0_0_20px_rgba(239,219,146,0.3)] transition-all duration-300"
+                  >
+                    Register for Event →
+                  </a>
+                </div>
+              )}
             </div>
           </div>
         </div>

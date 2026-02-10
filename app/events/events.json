@@ -124,7 +124,12 @@
       "phone": "8848185551, 7594073246"
     },
     "image": "/daksh.png",
-    "registrationLink": "https://tally.so/r/yPY164"
+    "registrationLink": "https://tally.so/r/yPY164",
+    "subevents": [
+      "Introduction to ROS 2 & loT basics",
+      "Sensor-to-Cloud loT System Implementation",
+      "Self Hosting 101 (Everything you need to know about self-hosting)"
+    ]
   },
 
   {

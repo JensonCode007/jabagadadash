@@ -8,9 +8,7 @@ import { Marquee } from "@/components/ui/marquee"
 import LightRays from "@/components/LightRays"
 import Countdown from "@/components/countdown";
 import Wrapper from "@/components/wrapper";
-import Sponsor1 from "../public/sponsers/Copy of Management fest - LOGIC SCHOOL-2.png"
-import Sponsor2 from "../public/sponsers/Copy of Management fest - LOGIC SCHOOL.png"
-import Sponsor3 from "../public/sponsers/Copy of Psychology fest_Thanatos-2 1st Prize (2).png"
+import Sponsor1 from "../public/sponsers/Management fest - LOGIC SCHOOL.png"
 import Sponsor4 from "../public/sponsers/Copy of Psychology fest_Thanatos-2 1st Prize.png"
 import Sponsor5 from "../public/sponsers/Copy_of_DYOTA__Psychology_Quiz__-removebg-preview.png"
 import Sponsor6 from "../public/sponsers/Copy_of_Idea_dharshan-removebg-preview.png"
@@ -18,8 +16,6 @@ import Sponsor7 from "../public/sponsers/Copy_of_PRADHARSHINI_PROJECT_EXPO-remov
 import Sponsor8 from "../public/sponsers/Copy_of_RANAM_CODING_COMPETETITION-removebg-preview.png"
 import Sponsor9 from "../public/sponsers/Cultural_Dhruva_26_Taranga_Yugma-removebg-preview.png"
 import Sponsor10 from "../public/sponsers/KIRTILAL JEWELLS_page-0001-Photoroom.png"
-import Sponsor11 from "../public/sponsers/Management fest - LOGIC SCHOOL-2.png"
-import Sponsor12 from "../public/sponsers/Management fest - LOGIC SCHOOL.png"
 import Sponsor13 from "../public/sponsers/Robo_war-_D_LINK-removebg-preview.png"
 import Sponsor14 from "../public/sponsers/Screenshot_2026-02-17_at_10.36.02_AM-removebg-preview.png"
 import Sponsor15 from "../public/sponsers/Screenshot_2026-02-17_at_10.37.26_AM-removebg-preview.png"
@@ -38,8 +34,6 @@ import { cn } from "@/lib/utils";
 
 const allSponsors = [
   { src: Sponsor1,  alt: "Logic School" },
-  { src: Sponsor2,  alt: "Logic School 2" },
-  { src: Sponsor3,  alt: "Psychology Fest Thanatos 2" },
   { src: Sponsor4,  alt: "Psychology Fest" },
   { src: Sponsor5,  alt: "DYOTA Psychology Quiz" },
   { src: Sponsor6,  alt: "Idea Dharshan" },
@@ -47,8 +41,6 @@ const allSponsors = [
   { src: Sponsor8,  alt: "Ranam Coding Competition" },
   { src: Sponsor9,  alt: "Cultural Dhruva Taranga Yugma" },
   { src: Sponsor10, alt: "Kirtilal Jewells" },
-  { src: Sponsor11, alt: "Logic School 3" },
-  { src: Sponsor12, alt: "Logic School 4" },
   { src: Sponsor13, alt: "Robo War D-Link" },
   { src: Sponsor14, alt: "Sponsor 14" },
   { src: Sponsor15, alt: "Sponsor 15" },
@@ -64,9 +56,9 @@ const SponsorCard = ({ src, alt }: { src: any; alt: string }) => (
   <figure
     className={cn(
       "relative flex items-center justify-center mx-2",
-      "h-28 w-44 shrink-0 rounded-xl border p-4 cursor-pointer",
-      "border-[rgba(239,219,146,0.2)] bg-[rgba(239,219,146,0.03)]",
-      "hover:bg-[rgba(239,219,146,0.08)] hover:border-[rgba(239,219,146,0.45)]",
+      "h-28 w-44 shrink-0 rounded-xl border-7 p-4 cursor-pointer",
+      "border-[#efdb92] bg-[#fdf8e8]",
+      "hover:bg-[#fef9ed] hover:border-[#d4c27d]",
       "transition-all duration-300"
     )}
   >

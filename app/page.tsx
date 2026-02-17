@@ -19,6 +19,9 @@ import Sponsor10 from "../public/sponsers/KIRTILAL JEWELLS_page-0001-Photoroom.p
 import Sponsor13 from "../public/sponsers/Robo_war-_D_LINK-removebg-preview.png"
 import Sponsor14 from "../public/sponsers/Screenshot_2026-02-17_at_10.36.02_AM-removebg-preview.png"
 import Sponsor15 from "../public/sponsers/Screenshot_2026-02-17_at_10.37.26_AM-removebg-preview.png"
+import Sponsor16 from "../public/sponsers/Vadakkanady_Builders.png"
+import Sponsor17 from "../public/sponsers/Care_Align.png"
+import Sponsor18 from "../public/sponsers/Melange_Designs.png"
 import UpdatesComponents from "@/components/updatescomponent";
 import BounceCards from "@/components/BounceCards";
 import Link from "next/link";
@@ -44,6 +47,9 @@ const allSponsors = [
   { src: Sponsor13, alt: "Robo War D-Link" },
   { src: Sponsor14, alt: "Sponsor 14" },
   { src: Sponsor15, alt: "Sponsor 15" },
+  { src: Sponsor16, alt: "Vadakkanady Builders" },
+  { src: Sponsor17, alt: "Care Align" },
+  { src: Sponsor18, alt: "Melange Designs" },
 ];
 
 // Split into two rows

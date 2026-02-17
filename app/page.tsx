@@ -7,6 +7,21 @@ import Image from "next/image";
 import LightRays from "@/components/LightRays"
 import Countdown from "@/components/countdown";
 import Wrapper from "@/components/wrapper";
+import Sponsor1 from "../public/sponsers/Copy of Management fest - LOGIC SCHOOL-2.png"
+import Sponsor2 from "../public/sponsers/Copy of Management fest - LOGIC SCHOOL.png"
+import Sponsor3 from "../public/sponsers/Copy of Psychology fest_Thanatos-2 1st Prize (2).png"
+import Sponsor4 from "../public/sponsers/Copy of Psychology fest_Thanatos-2 1st Prize.png"
+import Sponsor5 from "../public/sponsers/Copy_of_DYOTA__Psychology_Quiz__-removebg-preview.png"
+import Sponsor6 from "../public/sponsers/Copy_of_Idea_dharshan-removebg-preview.png"
+import Sponsor7 from "../public/sponsers/Copy_of_PRADHARSHINI_PROJECT_EXPO-removebg-preview.png"
+import Sponsor8 from "../public/sponsers/Copy_of_RANAM_CODING_COMPETETITION-removebg-preview.png"
+import Sponsor9 from "../public/sponsers/Cultural_Dhruva_26_Taranga_Yugma-removebg-preview.png"
+import Sponsor10 from "../public/sponsers/KIRTILAL JEWELLS_page-0001-Photoroom.png"
+import Sponsor11 from "../public/sponsers/Management fest - LOGIC SCHOOL-2.png"
+import Sponsor12 from "../public/sponsers/Management fest - LOGIC SCHOOL.png"
+import Sponsor13 from "../public/sponsers/Robo_war-_D_LINK-removebg-preview.png"
+import Sponsor14 from "../public/sponsers/Screenshot_2026-02-17_at_10.36.02_AM-removebg-preview.png"
+import Sponsor15 from "../public/sponsers/Screenshot_2026-02-17_at_10.37.26_AM-removebg-preview.png"
 import UpdatesComponents from "@/components/updatescomponent";
 import BounceCards from "@/components/BounceCards";
 import Link from "next/link";
@@ -105,29 +120,53 @@ export default function Home() {
             </Link>
           </div>
 
-          {/*<div className="w-full h-screen bg-black flex flex-row">
+          <div className="w-full h-screen bg-black flex flex-row">
             <div className="flex w-1/2 h-screen justify-start px-12 items-center">
               <div className="w-full">
                 <h1 className="text-[#efdb92] text-7xl font-cormorant mb-16">Sponsors</h1>
-                
-                <div className="mb-16">
-                  <h2 className="text-[#efdb92] text-3xl font-cormorant mb-8">Title Sponsor</h2>
-                  <div className="border border-[rgba(239,219,146,0.3)] rounded-lg p-8 flex items-center justify-center h-48 bg-[rgba(239,219,146,0.05)]">
-                    <p className="text-gray-400 text-xl">Title Sponsor Logo</p>
-                  </div>
-                </div>
-
                 <div>
-                  <h2 className="text-[#efdb92] text-2xl font-cormorant mb-6">Other Sponsors</h2>
                   <div className="grid grid-cols-3 gap-6">
                     <div className="border border-[rgba(239,219,146,0.2)] rounded-lg p-4 flex items-center justify-center h-32 bg-[rgba(239,219,146,0.03)]">
-                      <p className="text-gray-500 text-sm">Sponsor</p>
+                      <Image src={Sponsor1} alt="Sponsor" className="max-h-full max-w-full object-contain"/>
                     </div>
                     <div className="border border-[rgba(239,219,146,0.2)] rounded-lg p-4 flex items-center justify-center h-32 bg-[rgba(239,219,146,0.03)]">
-                      <p className="text-gray-500 text-sm">Sponsor</p>
+                      <Image src={Sponsor10} alt="Kirtilal Jewells" className="max-h-full max-w-full object-contain"/>
                     </div>
                     <div className="border border-[rgba(239,219,146,0.2)] rounded-lg p-4 flex items-center justify-center h-32 bg-[rgba(239,219,146,0.03)]">
-                      <p className="text-gray-500 text-sm">Sponsor</p>
+                      <Image src={Sponsor2} alt="Sponsor" className="max-h-full max-w-full object-contain"/>
+                    </div>
+                    <div className="border border-[rgba(239,219,146,0.2)] rounded-lg p-4 flex items-center justify-center h-32 bg-[rgba(239,219,146,0.03)]">
+                      <Image src={Sponsor4} alt="Sponsor" className="max-h-full max-w-full object-contain"/>
+                    </div>
+                    <div className="border border-[rgba(239,219,146,0.2)] rounded-lg p-4 flex items-center justify-center h-32 bg-[rgba(239,219,146,0.03)]">
+                      <Image src={Sponsor5} alt="Sponsor" className="max-h-full max-w-full object-contain"/>
+                    </div>
+                    <div className="border border-[rgba(239,219,146,0.2)] rounded-lg p-4 flex items-center justify-center h-32 bg-[rgba(239,219,146,0.03)]">
+                      <Image src={Sponsor6} alt="Sponsor" className="max-h-full max-w-full object-contain"/>
+                    </div>
+                    <div className="border border-[rgba(239,219,146,0.2)] rounded-lg p-4 flex items-center justify-center h-32 bg-[rgba(239,219,146,0.03)]">
+                      <Image src={Sponsor7} alt="Sponsor" className="max-h-full max-w-full object-contain"/>
+                    </div>
+                    <div className="border border-[rgba(239,219,146,0.2)] rounded-lg p-4 flex items-center justify-center h-32 bg-[rgba(239,219,146,0.03)]">
+                      <Image src={Sponsor8} alt="Sponsor" className="max-h-full max-w-full object-contain"/>
+                    </div>
+                    <div className="border border-[rgba(239,219,146,0.2)] rounded-lg p-4 flex items-center justify-center h-32 bg-[rgba(239,219,146,0.03)]">
+                      <Image src={Sponsor9} alt="Sponsor" className="max-h-full max-w-full object-contain"/>
+                    </div>
+                    <div className="border border-[rgba(239,219,146,0.2)] rounded-lg p-4 flex items-center justify-center h-32 bg-[rgba(239,219,146,0.03)]">
+                      <Image src={Sponsor11} alt="Sponsor" className="max-h-full max-w-full object-contain"/>
+                    </div>
+                    <div className="border border-[rgba(239,219,146,0.2)] rounded-lg p-4 flex items-center justify-center h-32 bg-[rgba(239,219,146,0.03)]">
+                      <Image src={Sponsor12} alt="Sponsor" className="max-h-full max-w-full object-contain"/>
+                    </div>
+                    <div className="border border-[rgba(239,219,146,0.2)] rounded-lg p-4 flex items-center justify-center h-32 bg-[rgba(239,219,146,0.03)]">
+                      <Image src={Sponsor13} alt="Sponsor" className="max-h-full max-w-full object-contain"/>
+                    </div>
+                    <div className="border border-[rgba(239,219,146,0.2)] rounded-lg p-4 flex items-center justify-center h-32 bg-[rgba(239,219,146,0.03)]">
+                      <Image src={Sponsor14} alt="Sponsor" className="max-h-full max-w-full object-contain"/>
+                    </div>
+                    <div className="border border-[rgba(239,219,146,0.2)] rounded-lg p-4 flex items-center justify-center h-32 bg-[rgba(239,219,146,0.03)]">
+                      <Image src={Sponsor15} alt="Sponsor" className="max-h-full max-w-full object-contain"/>
                     </div>
                   </div>
                 </div>
@@ -137,7 +176,7 @@ export default function Home() {
                 <LightRays className="absolute -z-10 left-0" followMouse={false} raysColor="#efdb92" raysSpeed={0.5} raysOrigin="right" lightSpread={2} pulsating={false}/>
             </div>
           </div>
-          */}
+          
 
           {/* Bounce Cards Section */}
           <div className="w-full bg-black py-16 max-sm:py-8 flex justify-center">

@@ -4,6 +4,7 @@ import LandingLogo from "../public/jb6_logo.png"
 import LandingLogo2 from "../public/jb6_bg_removed.png"
 import CollegeLogo from "../public/chinmaya_logo.png"
 import Image from "next/image";
+import { Marquee } from "@/components/ui/marquee"
 import LightRays from "@/components/LightRays"
 import Countdown from "@/components/countdown";
 import Wrapper from "@/components/wrapper";
@@ -31,6 +32,53 @@ import EventModal from "@/components/EventModal";
 import { mockEvents } from "./events/eventData";
 import FAQItem from "@/components/FAQItem";
 import faqData from "./faq.json";
+import { cn } from "@/lib/utils";
+
+// ─── Sponsor data ────────────────────────────────────────────────────────────
+
+const allSponsors = [
+  { src: Sponsor1,  alt: "Logic School" },
+  { src: Sponsor2,  alt: "Logic School 2" },
+  { src: Sponsor3,  alt: "Psychology Fest Thanatos 2" },
+  { src: Sponsor4,  alt: "Psychology Fest" },
+  { src: Sponsor5,  alt: "DYOTA Psychology Quiz" },
+  { src: Sponsor6,  alt: "Idea Dharshan" },
+  { src: Sponsor7,  alt: "Pradharshini Project Expo" },
+  { src: Sponsor8,  alt: "Ranam Coding Competition" },
+  { src: Sponsor9,  alt: "Cultural Dhruva Taranga Yugma" },
+  { src: Sponsor10, alt: "Kirtilal Jewells" },
+  { src: Sponsor11, alt: "Logic School 3" },
+  { src: Sponsor12, alt: "Logic School 4" },
+  { src: Sponsor13, alt: "Robo War D-Link" },
+  { src: Sponsor14, alt: "Sponsor 14" },
+  { src: Sponsor15, alt: "Sponsor 15" },
+];
+
+// Split into two rows
+const firstRowSponsors  = allSponsors.slice(0, Math.ceil(allSponsors.length / 2));
+const secondRowSponsors = allSponsors.slice(Math.ceil(allSponsors.length / 2));
+
+// ─── Sponsor card ─────────────────────────────────────────────────────────────
+
+const SponsorCard = ({ src, alt }: { src: any; alt: string }) => (
+  <figure
+    className={cn(
+      "relative flex items-center justify-center mx-2",
+      "h-28 w-44 shrink-0 rounded-xl border p-4 cursor-pointer",
+      "border-[rgba(239,219,146,0.2)] bg-[rgba(239,219,146,0.03)]",
+      "hover:bg-[rgba(239,219,146,0.08)] hover:border-[rgba(239,219,146,0.45)]",
+      "transition-all duration-300"
+    )}
+  >
+    <Image
+      src={src}
+      alt={alt}
+      className="max-h-full max-w-full object-contain"
+    />
+  </figure>
+);
+
+// ─── Other page data ───────────────────────────────────────────────────────────
 
 const datObj = [
     {
@@ -50,7 +98,7 @@ const datObj = [
     }
 ]
 
-const bounceImages: string[] =[
+const bounceImages: string[] = [
     "/daksh.png",
     "/taranga.png",
     "/dyota.png",
@@ -60,6 +108,8 @@ const bounceImages: string[] =[
 
 // Map bounce card indices to event IDs
 const bounceCardEventIds = ["7", "18", "23", "25", "9"];
+
+// ─── Page ─────────────────────────────────────────────────────────────────────
 
 export default function Home() {
   const [selectedEvent, setSelectedEvent] = useState<any>(null);
@@ -72,19 +122,32 @@ export default function Home() {
     }
   };
 
-  return (<>
-    <BackgroundParticles />
-    <Image src={CollegeLogo} alt="College logo" className="w-55 sm:w-50 z-0 absolute top-30 -translate-x-1/2 -translate-y-1/2 left-1/2 sm:translate-x-0 sm:translate-y-0 sm:left-10 sm:top-10"/>
-    <Wrapper>
-        <div className="w-full h-screen bg-black">
-            <LightRays className="absolute -z-10 left-0" followMouse={false} raysColor="#efdb92" raysSpeed={0.5} raysOrigin="top" lightSpread={2} pulsating={false}/>
+  return (
+    <>
+      <BackgroundParticles />
+      <Image
+        src={CollegeLogo}
+        alt="College logo"
+        className="w-55 sm:w-50 z-0 absolute top-30 -translate-x-1/2 -translate-y-1/2 left-1/2 sm:translate-x-0 sm:translate-y-0 sm:left-10 sm:top-10"
+      />
+      <Wrapper>
+        {/* ── Hero ───────────────────────────────────────────────────────── */}
+        <div className="relative w-full h-screen">
+          <LightRays
+            className="absolute -z-10 left-0"
+            followMouse={false}
+            raysColor="#efdb92"
+            raysSpeed={0.5}
+            raysOrigin="top"
+            lightSpread={2}
+            pulsating={false}
+          />
           <div className="absolute -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 flex items-center justify-center w-full flex-col max-sm:px-4">
-            <Image src={LandingLogo} className="w-150 sm:w-80 max-sm:w-55" alt="landing-logo"/>
-            <Image src={LandingLogo2} className="w-150 mt-5 max-sm:w-55 max-sm:mt-3" alt="landing-logo"/>
-
-            <Countdown/>
-            <Link 
-              href={"/events"} 
+            <Image src={LandingLogo} className="w-150 sm:w-80 max-sm:w-55" alt="landing-logo" />
+            <Image src={LandingLogo2} className="w-150 mt-5 max-sm:w-55 max-sm:mt-3" alt="landing-logo" />
+            <Countdown />
+            <Link
+              href={"/events"}
               className="relative flex justify-center items-center rounded-full px-12 py-4 mt-8
               max-sm:px-6 max-sm:py-2.5 max-sm:mt-5
               font-jetbrains-mono font-semibold text-base tracking-wide
@@ -105,118 +168,78 @@ export default function Home() {
               hover:after:translate-x-[200%]"
             >
               <span className="relative z-10 flex items-center gap-2 max-sm:gap-1.5">
-                <span className="inline-block transition-transform duration-300 group-hover:rotate-[360deg] max-sm:text-sm">
-                  ✦
-                </span>
+                <span className="inline-block transition-transform duration-300 group-hover:rotate-[360deg] max-sm:text-sm">✦</span>
                 <span>Register now</span>
-                <span className="inline-block transition-transform duration-300 group-hover:rotate-[360deg] group-hover:delay-100 max-sm:text-sm">
-                  ✦
-                </span>
+                <span className="inline-block transition-transform duration-300 group-hover:rotate-[360deg] group-hover:delay-100 max-sm:text-sm">✦</span>
               </span>
-              
-              {/* Corner decorations */}
               <span className="absolute top-2 right-4 w-2 h-2 border-t-2 border-r-2 border-[#efdb92] opacity-0 group-hover:opacity-100 transition-all duration-500 group-hover:top-1 group-hover:right-3 max-sm:hidden"></span>
               <span className="absolute bottom-2 left-4 w-2 h-2 border-b-2 border-l-2 border-[#efdb92] opacity-0 group-hover:opacity-100 transition-all duration-500 group-hover:bottom-1 group-hover:left-3 max-sm:hidden"></span>
             </Link>
           </div>
-
-          <div className="w-full h-screen bg-black flex flex-row">
-            <div className="flex w-1/2 h-screen justify-start px-12 items-center">
-              <div className="w-full">
-                <h1 className="text-[#efdb92] text-7xl font-cormorant mb-16">Sponsors</h1>
-                <div>
-                  <div className="grid grid-cols-3 gap-6">
-                    <div className="border border-[rgba(239,219,146,0.2)] rounded-lg p-4 flex items-center justify-center h-32 bg-[rgba(239,219,146,0.03)]">
-                      <Image src={Sponsor1} alt="Sponsor" className="max-h-full max-w-full object-contain"/>
-                    </div>
-                    <div className="border border-[rgba(239,219,146,0.2)] rounded-lg p-4 flex items-center justify-center h-32 bg-[rgba(239,219,146,0.03)]">
-                      <Image src={Sponsor10} alt="Kirtilal Jewells" className="max-h-full max-w-full object-contain"/>
-                    </div>
-                    <div className="border border-[rgba(239,219,146,0.2)] rounded-lg p-4 flex items-center justify-center h-32 bg-[rgba(239,219,146,0.03)]">
-                      <Image src={Sponsor2} alt="Sponsor" className="max-h-full max-w-full object-contain"/>
-                    </div>
-                    <div className="border border-[rgba(239,219,146,0.2)] rounded-lg p-4 flex items-center justify-center h-32 bg-[rgba(239,219,146,0.03)]">
-                      <Image src={Sponsor4} alt="Sponsor" className="max-h-full max-w-full object-contain"/>
-                    </div>
-                    <div className="border border-[rgba(239,219,146,0.2)] rounded-lg p-4 flex items-center justify-center h-32 bg-[rgba(239,219,146,0.03)]">
-                      <Image src={Sponsor5} alt="Sponsor" className="max-h-full max-w-full object-contain"/>
-                    </div>
-                    <div className="border border-[rgba(239,219,146,0.2)] rounded-lg p-4 flex items-center justify-center h-32 bg-[rgba(239,219,146,0.03)]">
-                      <Image src={Sponsor6} alt="Sponsor" className="max-h-full max-w-full object-contain"/>
-                    </div>
-                    <div className="border border-[rgba(239,219,146,0.2)] rounded-lg p-4 flex items-center justify-center h-32 bg-[rgba(239,219,146,0.03)]">
-                      <Image src={Sponsor7} alt="Sponsor" className="max-h-full max-w-full object-contain"/>
-                    </div>
-                    <div className="border border-[rgba(239,219,146,0.2)] rounded-lg p-4 flex items-center justify-center h-32 bg-[rgba(239,219,146,0.03)]">
-                      <Image src={Sponsor8} alt="Sponsor" className="max-h-full max-w-full object-contain"/>
-                    </div>
-                    <div className="border border-[rgba(239,219,146,0.2)] rounded-lg p-4 flex items-center justify-center h-32 bg-[rgba(239,219,146,0.03)]">
-                      <Image src={Sponsor9} alt="Sponsor" className="max-h-full max-w-full object-contain"/>
-                    </div>
-                    <div className="border border-[rgba(239,219,146,0.2)] rounded-lg p-4 flex items-center justify-center h-32 bg-[rgba(239,219,146,0.03)]">
-                      <Image src={Sponsor11} alt="Sponsor" className="max-h-full max-w-full object-contain"/>
-                    </div>
-                    <div className="border border-[rgba(239,219,146,0.2)] rounded-lg p-4 flex items-center justify-center h-32 bg-[rgba(239,219,146,0.03)]">
-                      <Image src={Sponsor12} alt="Sponsor" className="max-h-full max-w-full object-contain"/>
-                    </div>
-                    <div className="border border-[rgba(239,219,146,0.2)] rounded-lg p-4 flex items-center justify-center h-32 bg-[rgba(239,219,146,0.03)]">
-                      <Image src={Sponsor13} alt="Sponsor" className="max-h-full max-w-full object-contain"/>
-                    </div>
-                    <div className="border border-[rgba(239,219,146,0.2)] rounded-lg p-4 flex items-center justify-center h-32 bg-[rgba(239,219,146,0.03)]">
-                      <Image src={Sponsor14} alt="Sponsor" className="max-h-full max-w-full object-contain"/>
-                    </div>
-                    <div className="border border-[rgba(239,219,146,0.2)] rounded-lg p-4 flex items-center justify-center h-32 bg-[rgba(239,219,146,0.03)]">
-                      <Image src={Sponsor15} alt="Sponsor" className="max-h-full max-w-full object-contain"/>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="flex w-1/2 h-screen justify-center">
-                <LightRays className="absolute -z-10 left-0" followMouse={false} raysColor="#efdb92" raysSpeed={0.5} raysOrigin="right" lightSpread={2} pulsating={false}/>
-            </div>
-          </div>
-          
-
-          {/* Bounce Cards Section */}
-          <div className="w-full bg-black py-16 max-sm:py-8 flex justify-center">
-            <div className="flex flex-col items-center">
-              <h1 className="text-[#efdb92] text-5xl text-center font-cormorant max-sm:text-3xl mb-10">Event Highlights</h1>
-              <BounceCards 
-                images={bounceImages}
-                className="max-sm:scale-72 -mt-22 sm:mt-15"
-                enableHover
-                onCardClick={handleBounceCardClick}
-              />
-            </div>
-          </div>
-
-         { /*<div className="w-full h-200 bg-black flex flex-col justify-center items-center py-10 max-sm:p-4 max-sm:pb-24 max-sm:h-auto">
-            <h1 className="text-[#efdb92] text-5xl text-center py-18 font-cormorant max-sm:text-3xl max-sm:py-8">Updates</h1>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto w-full max-sm:gap-6">
-              {datObj.map((item, index)=>
-                  <UpdatesComponents key={index} title={item.title} desc={item.desc} imagesrc={item.imagesrc} modalDesc={item.modalDesc} link={item.link}/>
-              )}
-            </div>
-          </div>*/}
-
-          <div className="w-full bg-black py-16 sm:pb-35 flex flex-col justify-center items-center max-sm:p-4">
-            <h1 className="text-[#efdb92] text-5xl text-center py-8 font-cormorant max-sm:text-3xl max-sm:py-6 mb-2">FAQs</h1>
-            <div className="max-w-4xl w-full mx-auto space-y-4 px-4">
-              {faqData.map((faq, index) => (
-                <FAQItem key={index} question={faq.question} answer={faq.answer} />
-              ))}
-            </div>
-          </div>
-
         </div>
-    </Wrapper>
-    
-    {/* Event Modal */}
-    {selectedEvent && (
-      <EventModal event={selectedEvent} onClose={() => setSelectedEvent(null)} />
-    )}
+
+        {/* ── Sponsors Marquee ───────────────────────────────────────────── */}
+        <div className="relative w-full py-20 flex flex-col items-center overflow-hidden">
+
+          <h1 className="text-[#efdb92] text-6xl font-cormorant mb-14">
+            Sponsors
+          </h1>
+
+          {/* Row 1 – scrolls left */}
+          <div className="relative w-full">
+            <Marquee pauseOnHover className="[--duration:30s] py-2">
+              {firstRowSponsors.map((s, i) => (
+                <SponsorCard key={i} src={s.src} alt={s.alt} />
+              ))}
+            </Marquee>
+            <div className="pointer-events-none absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-black to-transparent" />
+            <div className="pointer-events-none absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-black to-transparent" />
+          </div>
+
+          {/* Row 2 – scrolls right */}
+          <div className="relative w-full mt-4">
+            <Marquee reverse pauseOnHover className="[--duration:30s] py-2">
+              {secondRowSponsors.map((s, i) => (
+                <SponsorCard key={i} src={s.src} alt={s.alt} />
+              ))}
+            </Marquee>
+            <div className="pointer-events-none absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-black to-transparent" />
+            <div className="pointer-events-none absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-black to-transparent" />
+          </div>
+        </div>
+
+        {/* ── Event Highlights ───────────────────────────────────────────── */}
+        <div className="w-full bg-black py-16 max-sm:py-8 flex justify-center">
+          <div className="flex flex-col items-center">
+            <h1 className="text-[#efdb92] text-5xl text-center font-cormorant max-sm:text-3xl mb-10">
+              Event Highlights
+            </h1>
+            <BounceCards
+              images={bounceImages}
+              className="max-sm:scale-72 -mt-22 sm:mt-15"
+              enableHover
+              onCardClick={handleBounceCardClick}
+            />
+          </div>
+        </div>
+
+        {/* ── FAQs ───────────────────────────────────────────────────────── */}
+        <div className="w-full bg-black py-16 sm:pb-35 flex flex-col justify-center items-center max-sm:p-4">
+          <h1 className="text-[#efdb92] text-5xl text-center py-8 font-cormorant max-sm:text-3xl max-sm:py-6 mb-2">
+            FAQs
+          </h1>
+          <div className="max-w-4xl w-full mx-auto space-y-4 px-4">
+            {faqData.map((faq, index) => (
+              <FAQItem key={index} question={faq.question} answer={faq.answer} />
+            ))}
+          </div>
+        </div>
+      </Wrapper>
+
+      {/* Event Modal */}
+      {selectedEvent && (
+        <EventModal event={selectedEvent} onClose={() => setSelectedEvent(null)} />
+      )}
     </>
-    
   );
 }

@@ -10,7 +10,6 @@ import Image from 'next/image';
 interface EventCardProps {
   event: Event;
 }
-
 export default function EventCard({ event }: EventCardProps) {
   const [isModalOpen, setIsModalOpen] = useState(false);
 

@@ -22,6 +22,9 @@ import Sponsor15 from "../public/sponsers/Screenshot_2026-02-17_at_10.37.26_AM-r
 import Sponsor16 from "../public/sponsers/Vadakkanady_Builders.png"
 import Sponsor17 from "../public/sponsers/Care_Align.png"
 import Sponsor18 from "../public/sponsers/Melange_Designs.png"
+import Sponsor19 from "../public/sponsers/Kisna.png"
+import Sponsor20 from "../public/sponsers/Cricket_Shack.png"
+import Sponsor21 from "../public/sponsers/Rennys_Academy.png"
 import UpdatesComponents from "@/components/updatescomponent";
 import BounceCards from "@/components/BounceCards";
 import Link from "next/link";
@@ -50,6 +53,9 @@ const allSponsors = [
   { src: Sponsor16, alt: "Vadakkanady Builders" },
   { src: Sponsor17, alt: "Care Align" },
   { src: Sponsor18, alt: "Melange Designs" },
+  { src: Sponsor19, alt: "Kisna" },
+  { src: Sponsor20, alt: "Cricket Shack" },
+  { src: Sponsor21, alt: "Rennys Academy" },
 ];
 
 // Split into two rows

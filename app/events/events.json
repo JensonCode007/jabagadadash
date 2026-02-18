@@ -251,7 +251,7 @@
     "category": "Tech",
     "tags": ["Day 2"],
     "description": "A live web development challenge where teams design and code responsive, creative websites within a limited timeframe.",
-    "guidelines": "• Team Size: 1–3 members; open to all branches\n• Time Limit: 1:00 PM – 4:00 PM; website must be built entirely during this window\n• Theme: A specific theme will be announced at the start of the event\n• Restrictions: No AI-generated code, pre-made templates, or drag-and-drop builders\n• Submission: Project must be uploaded to a public GitHub repository\n• Evaluation: Based on UI/UX, functionality, responsiveness, and creativity\n• Reporting: 12:50 PM at the notified venue\n• Frameworks: Use of frameworks and libraries is permitted",
+    "guidelines": "• Team Size: 1–3 members; open to all branches\n• Time Limit: 1:00 PM – 4:00 PM; website must be built entirely during this window\n• Theme: A specific theme will be announced at the start of the event\n• Restrictions: No pre-made templates, or drag-and-drop builders\n• Submission: Project must be uploaded to a public GitHub repository\n• Evaluation: Based on UI/UX, functionality, responsiveness, and creativity\n• Reporting: 12:50 PM at the notified venue\n• Frameworks: Use of frameworks and libraries is permitted",
     "registrationFee": "80/- per head",
     "cashPrize": { "type": "prize-pool", "amount": "5,000" },
     "coordinator": {

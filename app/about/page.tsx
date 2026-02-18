@@ -18,6 +18,7 @@ export default function AboutPage() {
 
         {/* Logo Section */}
         <div className="flex justify-center items-center gap-8 mb-12 animate-fade-in flex-wrap">
+          <a href="https://youtube.com/shorts/_6HzLIJPH2A?si=-oFHCHKXtfJNo2QY" target="blank">
           <Image
             src="/jb6_logo.png"
             alt="Jabagadadash 6.0 Logo"
@@ -25,6 +26,9 @@ export default function AboutPage() {
             height={250}
             className="object-contain"
           />
+          
+          </a>
+          <a href="https://youtube.com/shorts/G29xUZO_6Eo?si=TPA5gyXL9KH5QqqX" target="blank">
           <Image
             src="/Logo CVV - 2 - White.png"
             alt="CVV Logo"
@@ -32,6 +36,8 @@ export default function AboutPage() {
             height={230}
             className="object-contain"
           />
+          </a>
+          
         </div>
 
         {/* About Section */}

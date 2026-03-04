@@ -16,7 +16,7 @@
     },
     "image": "/drishti.png",
     "registrationLink": "https://tally.so/r/eqRv1l",
-    "registrationClosed": false
+    "registrationClosed": true
   },
   {
     "id": "2",
@@ -34,7 +34,8 @@
       "phone": "9496774628, 9496677908"
     },
     "image": "/navodayam.png",
-    "registrationLink": "https://tally.so/r/Xx0Q5Y"
+    "registrationLink": "https://tally.so/r/Xx0Q5Y",
+    "registrationClosed": true
   },
   {
     "id": "3",
@@ -71,7 +72,8 @@
       "phone": "9745197549, 7306710772"
     },
     "image": "/chakravyuha.png",
-    "registrationLink": "https://tally.so/r/0QOk7y"
+    "registrationLink": "https://tally.so/r/0QOk7y",
+    "registrationClosed": true
   },
   {
     "id": "5",
@@ -89,7 +91,8 @@
       "phone": "6282511970, 8590682078"
     },
     "image": "/vyapara tantra.png",
-    "registrationLink": "https://tally.so/r/xXYzMr"
+    "registrationLink": "https://tally.so/r/xXYzMr",
+    "registrationClosed": true
   },
 
   {
@@ -132,7 +135,8 @@
       "Introduction to ROS 2 & loT basics",
       "Sensor-to-Cloud loT System Implementation",
       "Self Hosting 101 (Everything you need to know about self-hosting)"
-    ]
+    ],
+    "registrationClosed": true
   },
 
   {
@@ -151,7 +155,8 @@
       "phone": "7356358630, 9961005302"
     },
     "image": "/yodha.png",
-    "registrationLink": "https://tally.so/r/zxYdK1"
+    "registrationLink": "https://tally.so/r/zxYdK1",
+    "registrationClosed": true
   },
 
   {
@@ -170,7 +175,8 @@
       "phone": "7012446604, 9072526232"
     },
     "image": "/ranam.png",
-    "registrationLink": "https://tally.so/r/lbrzA5"
+    "registrationLink": "https://tally.so/r/lbrzA5",
+    "registrationClosed": true
   },
   {
     "id": "10",
@@ -187,7 +193,8 @@
       "phone": "9995449128 , 9495858085"
     },
     "image": "/MayaSabha.png",
-    "registrationLink": "https://tally.so/r/walkup"
+    "registrationLink": "https://tally.so/r/walkup",
+    "registrationClosed": true
   },
   {
     "id": "11",
@@ -205,7 +212,8 @@
       "phone": "9746942620, 9400087920"
     },
     "image": "/ekalakshya.png",
-    "registrationLink": "https://tally.so/r/A7v98W"
+    "registrationLink": "https://tally.so/r/A7v98W",
+    "registrationClosed": true
   },
   {
     "id": "12",
@@ -223,7 +231,8 @@
       "phone": "8089475525, 8848889682"
     },
     "image": "/ideadarshan.png",
-    "registrationLink": "https://tally.so/r/VLJNla"
+    "registrationLink": "https://tally.so/r/VLJNla",
+    "registrationClosed": true
   },
   {
     "id": "13",
@@ -241,7 +250,8 @@
       "phone": "9061711663, 8547250037"
     },
     "image": "/pradarshini.png",
-    "registrationLink": "https://tally.so/r/Xx0Qqd"
+    "registrationLink": "https://tally.so/r/Xx0Qqd",
+    "registrationClosed": true
   },
   {
     "id": "14",
@@ -259,7 +269,8 @@
       "phone": "9061592245, 7593042465"
     },
     "image": "/web aakriti.png",
-    "registrationLink": "https://tally.so/r/Zjaela"
+    "registrationLink": "https://tally.so/r/Zjaela",
+    "registrationClosed": true
   },
 
   {
@@ -278,7 +289,8 @@
       "phone": "+91 79945 55083"
     },
     "image": "/gudha bhav.png",
-    "registrationLink": "https://tally.so/r/jaPzL6"
+    "registrationLink": "https://tally.so/r/jaPzL6",
+    "registrationClosed": true
   },
   {
     "id": "16",
@@ -296,7 +308,8 @@
       "phone": "6282261449"
     },
     "image": "/trinetra.png",
-    "registrationLink": "https://tally.so/r/aQdz0E"
+    "registrationLink": "https://tally.so/r/aQdz0E",
+    "registrationClosed": true
   },
   {
     "id": "17",
@@ -314,7 +327,8 @@
       "phone": "+91 81020 83452"
     },
     "image": "/chitraangika.png",
-    "registrationLink": "https://tally.so/r/MeRVLg"
+    "registrationLink": "https://tally.so/r/MeRVLg",
+    "registrationClosed": true
   },
   {
     "id": "18",
@@ -332,7 +346,8 @@
       "phone": "+91 85920 91614 , +91 99678 43080"
     },
     "image": "/taranga.png",
-    "registrationLink": "https://tally.so/r/44rOvo"
+    "registrationLink": "https://tally.so/r/44rOvo",
+    "registrationClosed": true
   },
   {
     "id": "19",
@@ -350,7 +365,8 @@
       "phone": "+91 97785 78349 , +91 90613 48133"
     },
     "image": "/dhruva.png",
-    "registrationLink": "https://tally.so/r/PdOrY0"
+    "registrationLink": "https://tally.so/r/PdOrY0",
+    "registrationClosed": true
   },
   {
     "id": "20",
@@ -368,7 +384,8 @@
       "phone": "+91 79947 84209"
     },
     "image": "/yugma.png",
-    "registrationLink": "https://tally.so/r/1AVRJL"
+    "registrationLink": "https://tally.so/r/1AVRJL",
+    "registrationClosed": true
   },
 
   {
@@ -387,7 +404,8 @@
       "phone": "75101 71964, 70122 30835"
     },
     "image": "/swarabinaya.png",
-    "registrationLink": "https://tally.so/r/PdOrB0"
+    "registrationLink": "https://tally.so/r/PdOrB0",
+    "registrationClosed": true
   },
 
   {
@@ -406,7 +424,8 @@
       "phone": "9778445115 , 9495962961"
     },
     "image": "/squid game.png",
-    "registrationLink": "https://tally.so/r/Xx0QRe"
+    "registrationLink": "https://tally.so/r/Xx0QRe",
+    "registrationClosed": true
   },
   {
     "id": "23",
@@ -424,7 +443,8 @@
       "phone": "+91 89217 20870"
     },
     "image": "/dyota.png",
-    "registrationLink": "https://tally.so/r/vGYz0X"
+    "registrationLink": "https://tally.so/r/vGYz0X",
+    "registrationClosed": true
   },
   {
     "id": "24",
@@ -442,7 +462,8 @@
       "phone": "6282312058"
     },
     "image": "/thanatos.png",
-    "registrationLink": "https://tally.so/r/ODGEjk"
+    "registrationLink": "https://tally.so/r/ODGEjk",
+    "registrationClosed": true
   },
 
   {
@@ -461,7 +482,8 @@
       "phone": "8590962198"
     },
     "image": "/jigisha.png",
-    "registrationLink": "https://tally.so/r/GxlboQ"
+    "registrationLink": "https://tally.so/r/GxlboQ",
+    "registrationClosed": true
   },
   {
     "id": "26",
@@ -479,7 +501,8 @@
       "phone": "85903234339"
     },
     "image": "/ganitha.png",
-    "registrationLink": "https://tally.so/r/QKV4v1"
+    "registrationLink": "https://tally.so/r/QKV4v1",
+    "registrationClosed": true
   },
   {
     "id": "27",
@@ -497,7 +520,8 @@
       "phone": "+91 99496 71946"
     },
     "image": "/tejas.png",
-    "registrationLink": "https://tally.so/r/KY1GvD"
+    "registrationLink": "https://tally.so/r/KY1GvD",
+    "registrationClosed": true
   },
 
   {
@@ -516,7 +540,8 @@
       "phone": "7907269067 , 9961295176"
     },
     "image": "/sevens.png",
-    "registrationLink": "https://tally.so/r/q4VzJ5"
+    "registrationLink": "https://tally.so/r/q4VzJ5",
+    "registrationClosed": true
   },
   {
     "id": "29",
@@ -534,7 +559,8 @@
       "phone": "+91 85903 07578"
     },
     "image": "/lakshya.png",
-    "registrationLink": "https://tally.so/r/1AVRpg"
+    "registrationLink": "https://tally.so/r/1AVRpg",
+    "registrationClosed": true
   },
   {
     "id": "30",
@@ -552,7 +578,8 @@
       "phone": "+91 88917 61138, 7907338896"
     },
     "image": "/robowar.png",
-    "registrationLink": "https://tally.so/r/0QO4P9"
+    "registrationLink": "https://tally.so/r/0QO4P9",
+    "registrationClosed": true
   }
 ]
 
